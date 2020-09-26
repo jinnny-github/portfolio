@@ -1,0 +1,63 @@
+section div#text h2 span:first-child{
+    width: 280px;
+}
+
+section div#text h2 span:nth-child(2){
+    width: 235px;
+}
+
+section div#text h2 span:last-child{
+    width: 190px;
+}
+
+ section #text h2 span.typing1{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  /*border-right: .15em solid darkgreen;*/ /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing1 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+section #text h2 span.typing2{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  /*border-right: .15em solid darkgreen; *//* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing1 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+section #text h2 span.typing3{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  /*border-right: .15em solid darkgreen; *//* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing1 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing1 {
+  from { width: 0 }
+  to { width: 280px }
+}
+
+@keyframes typing2 {
+  from { width: 0 }
+  to { width: 229px }
+}
+
+@keyframes typing3 {
+  from { width: 0 }
+  to { width: 190px }
+}
+
+/* The typewriter cursor effect */
+/*@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: darkgreen}
+}*/

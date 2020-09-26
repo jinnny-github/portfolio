@@ -1,0 +1,24 @@
+/*css 초기화*/
+html,
+body,
+header,
+nav,
+section,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+img,
+figure,
+figcaptoin,
+span,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+}

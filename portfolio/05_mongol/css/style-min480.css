@@ -1,0 +1,100 @@
+@media only screen and (min-width: 480px) {
+    html {
+        font-size: 13px;
+    }
+
+    h3 {
+        text-align: left;
+    }
+
+    #flipNav {
+        width: 500px;
+        transform: perspective(500px) translateX(-250px);
+    }
+
+    /*section 시작*/
+    section {
+        height: 70vw;
+    }
+
+    section ul li img {
+        width: 100%;
+        height: 70vw;
+    }
+
+    section div#text span:last-child {
+        margin-left: 20%;
+    }
+
+    /*div#why 시작*/
+    div#why ul {
+        display: flex;
+        margin-top: 10vw;
+    }
+
+    div#why ul li {
+        flex: 1;
+        margin: 0 3%;
+    }
+
+    div#why ul li div {
+        float: none;
+        width: 60%;
+        height: 8vw;
+        margin: 0 auto 2vw;
+    }
+
+    div#why ul li dl {
+        float: none;
+        width: 100%;
+    }
+
+    /*div#adBanner 시작*/
+    div#adBanner h3 {
+        text-align: center;
+    }
+
+    div#adBanner div.twinkling a {
+        width: 10%;
+        margin: 5vw auto;
+    }
+
+    /*div#booking 시작*/
+    div#booking {
+        margin-top: 3vw;
+    }
+
+    /*div#tours 시작*/
+    div#tours {
+        padding: 20vw 0 25vw;
+    }
+
+    div#tours h4 span {
+        font-size: 3rem;
+    }
+
+    div#tours > span {
+        margin: 3vw 0;
+    }
+
+    /*footer 시작*/
+    footer {
+        margin-top: 5vw;
+    }
+
+    footer div#ulWrap {
+        padding: 2vw 0;
+    }
+
+    footer div.wrap70 {
+        margin: 3vw auto 5vw;
+    }
+
+    footer div.fr {
+        width: 43%;
+    }
+
+    footer div.fr span {
+        margin-top: 2vw;
+    }
+}

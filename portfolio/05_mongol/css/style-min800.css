@@ -1,0 +1,245 @@
+@media only screen and (min-width: 800px) {
+    html {
+        font-size: 14px;
+    }
+
+    div#why,
+    div#best,
+    div#adBanner,
+    div#earlyB,
+    footer {
+        margin-top: 10vw;
+    }
+
+
+    /*section 시작*/
+    section {
+        height: 55vw;
+    }
+
+    section ul li img {
+        height: 55vw;
+    }
+
+    /*div#why 시작*/
+    div#why ul {
+        margin-top: 5vw;
+    }
+
+    div#why ul li {
+        margin: 0 5%;
+    }
+
+    div#why ul li div {
+        float: none;
+        width: 50%;
+        height: 5.2vw;
+        margin: 0 auto 2vw;
+    }
+
+    /*div#best 시작*/
+    div#best {
+        height: 40vw;
+    }
+
+    div#best > div {
+        height: 50%;
+    }
+
+    div#best div.left {
+        width: 32%;
+        margin-right: 3%;
+    }
+
+    div#best div.right {
+        float: left;
+        width: 65%;
+    }
+
+    div#best div.right div.grid {
+        width: 47%;
+        height: 100%;
+        float: left;
+    }
+
+    div#best div.right div.grid:first-child {
+        margin-right: 5%;
+    }
+
+    div#best div.right figure.imgWrap {
+        height: 100%;
+    }
+
+    div#best div.right div.grid:first-child figure.imgWrap {
+        margin-bottom: 0;
+    }
+
+    div.right .grid figure.effect-sadie figcaption p {
+        display: block;
+    }
+
+    /*div#adBanner 시작*/
+    div#adBanner {
+        height: 40vw;
+    }
+
+    div#adBanner div {
+        height: 70%;
+    }
+
+    div#adBanner div.twinkling h3 {
+        margin-top: 8%;
+    }
+
+    div#adBanner div.twinkling a {
+        padding: 0.8rem 2%;
+    }
+
+    div#adBanner p {
+        width: 70%;
+        padding-top: 30%;
+    }
+
+    /*div#earlyB 시작*/
+    div#earlyB {
+        width: 66%;
+        display: block;
+        overflow: hidden;
+        border-top: 1px solid #fff;
+        border-right: 1px solid #fff;
+        padding: 3vw 4% 3vw 0;
+        margin: 10vw auto 0;
+    }
+
+    div#earlyB div.left {
+        width: 45%;
+        margin-right: 5%;
+        float: left;
+        height: 40vw;
+        position: relative;
+    }
+
+    div#earlyB div.left h3 {
+        margin-top: 12vw;
+        font-size: 2.5rem;
+    }
+
+    div#earlyB div.left > div {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    div#earlyB div.left div.rot90 {
+        transform: rotate(-90deg) translate(8rem, -7rem);
+        font-size: 0.8rem;
+    }
+
+    div#earlyB div.left span.hr {
+        display: inline-block;
+        width: 20%;
+        height: 1px;
+        background-color: #fff;
+        vertical-align: middle;
+    }
+
+    div#earlyB div.left div.textWrap {
+        color: #191c25;
+        background-color: #fff;
+        font-size: 1.2rem;
+        padding: 1rem;
+        font-weight: 600;
+        position: relative;
+    }
+
+    div#earlyB div.left div.textWrap span {
+        display: block;
+    }
+
+    div#earlyB div.left div.textWrap span:last-child {
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+        font-size: 0.8rem;
+    }
+
+    div#earlyB div.right {
+        width: 50%;
+        float: right;
+        position: relative;
+        height: 40vw;
+    }
+
+    div#earlyB div.right figure {
+        width: 40%;
+        height: 20vw;
+        position: absolute;
+    }
+
+    div#earlyB div.right figure:first-child {
+        right: 3vw;
+        top: 0;
+    }
+
+    div#earlyB div.right figure:nth-child(2) {
+        left: 0;
+        top: 15vw;
+    }
+
+    div#earlyB div.right figure:last-child {
+        right: 0;
+        bottom: 0;
+    }
+
+    div#earlyB div.right figure img {
+        width: 100%;
+        height: 13vw;
+        margin-top: 1vw;
+    }
+
+    div#earlyB div.right figure figcaption span {
+        display: block;
+    }
+
+    /*article 시작*/
+    article {
+        overflow: hidden;
+    }
+
+    article div.left {
+        width: 50%;
+        margin-right: 5%;
+        float: left;
+    }
+
+    article div.right {
+        width: 45%;
+        float: right;
+    }
+
+    article div#booking form {
+        margin: 5vw 0 10vw;
+    }
+
+    article div#booking form input {
+        width: 88%;
+    }
+
+    article div#booking form input#submit {
+        margin: 5vw auto;
+    }
+
+    article div#booking form select {
+        width: 60%;
+    }
+
+    /*div#tours 시작*/
+    div#tours {
+        padding: 15vw 0 20vw;
+    }
+
+    /*footer 시작*/
+    footer {
+        margin-top: 5vw;
+    }
+}

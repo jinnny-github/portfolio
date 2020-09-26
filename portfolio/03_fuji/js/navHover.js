@@ -1,0 +1,10 @@
+$(function(){
+	$("header>nav>ul>li>ul").slideUp(0);
+	$("header>nav>ul>li").mouseenter(function(){
+		$("header>nav>ul>li>ul").stop().slideDown("slow");
+		$(this).addClass("on");
+	}).mouseleave(function(){
+		$("header>nav>ul>li>ul").stop().slideUp("slow");
+		$(this).removeClass("on");
+	});
+})

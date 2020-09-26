@@ -1,0 +1,13 @@
+.flex-control-nav {
+    bottom: 15px !important;
+}
+
+.flex-control-paging li a{
+    width: 15px !important;
+    height: 15px !important;
+    background: #ccc !important;
+}
+
+.flex-control-paging li a.flex-active {
+    background: rgba(255, 255, 255, 1) !important;
+}

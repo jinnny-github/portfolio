@@ -1,0 +1,10 @@
+/*common*/
+a{
+    text-decoration: none;
+    color: #666;
+    font-size: 12px;
+}
+
+ul, ol, li{
+    list-style: none;
+}

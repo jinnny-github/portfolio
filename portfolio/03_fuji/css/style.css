@@ -1,0 +1,711 @@
+@import url("reset.css");
+@import url("common.css");
+
+html {
+    font-size: 12px;
+}
+
+header h1 {
+    width: 10%;
+    float: none;
+    margin: auto;
+}
+
+/*div#top 시작*/
+
+div#top {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid white;
+    font-size: 0.7rem;
+    z-index: 100 !important;
+}
+
+/*header 시작*/
+
+header {
+    padding: 1rem 1%;
+    position: fixed;
+    width: 98%;
+    z-index: 99;
+    background-color: black;
+}
+
+header nav {
+    display: none;
+}
+
+header div#m_nav {
+    display: inline-block;
+    width: 8%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 999;
+}
+
+header div#m_nav #burger {
+    position: fixed;
+    width: 5rem;
+    height: 3rem;
+    left: 0;
+    top: 0;
+    color: white;
+    background: linear-gradient(-45deg, #6b468d 10%, #000);
+    font-size: 32px;
+    padding: 10px 0px 20px 7px;
+    border-radius: 0% 0% 100% 0%;
+    transition: 1s;
+    cursor: pointer;
+}
+
+header div#m_nav #burger img {
+    width: 60%;
+}
+
+header div#m_nav #quit {
+    position: fixed;
+    top: 0;
+    color: white;
+    font-size: 1rem;
+    padding: 15px 7px;
+    display: none;
+    cursor: pointer;
+}
+
+header div#m_nav #quit img {
+    width: 25%;
+}
+
+header div#m_nav #links {
+    display: none;
+    flex-direction: column;
+    width: 100vw;
+    height: 50vh;
+    padding: 8vh 0;
+    justify-content: space-around;
+    z-index: 9999;
+}
+
+header div#m_nav #links a {
+    display: block;
+    padding-left: 20vw;
+    color: white;
+    font-size: 1.3rem;
+    z-index: 10;
+    letter-spacing: 0.3rem;
+}
+
+header div#m_nav #links a:hover {
+    text-shadow: 0px 0px 3px white;
+}
+
+
+header h1 img {
+    width: 100%;
+}
+
+div#gnb {
+    display: none;
+}
+
+/*div.container 시작*/
+
+div.container {
+    position: relative;
+    height: 160vw;
+    overflow: hidden;
+    z-index: 88;
+    widows: ;
+}
+
+.boxgallery > nav span {
+    top: 55%;
+    width: 50px;
+    height: 50px;
+}
+
+div.container p {
+    position: absolute;
+    color: white;
+    left: 10%;
+    z-index: 78;
+    font-size: 1rem;
+    top: 65%;
+}
+
+div.container p span {
+    font-size: 3rem;
+    font-weight: 500;
+    display: block;
+}
+
+div.container p span#moreInfo {
+    float: none;
+    margin: 7vw 0;
+    width: 40%;
+    height: 7vw;
+    line-height: 7vw;
+}
+
+div.container p a#moreInfo span {
+    font-size: 1rem;
+    font-weight: 400;
+    display: block;
+}
+
+div.container p span#moreInfo a {
+    font-size: 1.2rem;
+}
+
+.boxgallery > nav span {
+    width: 15vw !important;
+    height: 15vw !important;
+}
+
+.panel img{
+    width: 300%;
+}
+
+.actionBtn3 {
+    display: block;
+    width: 30%;
+    height: 38px;
+    padding: 2%;
+    float: right;
+    text-align: center;
+    text-align: center;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+}
+
+.actionBtn3 .front,
+.actionBtn3 .back {
+    position: absolute;
+    display: block;
+    width: 150px;
+    height: 38px;
+    line-height: 40px;
+    transition: all .5s;
+    -webkit-transition: -webkit-transform .5s;
+    -moz-transition: -moz-transform .5s;
+    color: white;
+    font-size: 14px;
+    font-family: oswald;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.actionBtn3 .front {
+    background-color: #6b468d;
+    transform: translateZ(19px);
+    -webkit-transform: translateZ(19px);
+    -moz-transform: translateZ(19px);
+}
+
+.actionBtn3 .back {
+    background-color: #fff;
+    color: #6b468d;
+    transform: rotateX(-90deg) translateZ(19px);
+    -webkit-transform: rotateX(-90deg) translateZ(19px);
+    -moz-transform: rotateX(-90deg) translateZ(19px);
+}
+
+.actionBtn3:hover {
+    transform: rotateX(90deg);
+    -webkit-transform: rotateX(90deg);
+    -moz-transform: rotateX(90deg);
+}
+
+/*div#boxWrap 시작*/
+
+div#boxWrap {
+    display: none;
+}
+
+/*div#hotBrand 시작*/
+
+div#hotBrand {
+    display: none;
+}
+
+div#m_hotBrand {
+    margin: 10vw 0;
+    position: relative;
+}
+
+div#m_hotBrand h2 {
+    font-size: 4.5rem;
+    font-weight: 800;
+    text-align: center;
+    color: rgba(107, 70, 141, .2);
+}
+
+div#m_hotBrand div {
+    margin: 20vw 0;
+    overflow: hidden;
+}
+
+div#m_hotBrand div ul {
+    overflow: hidden;
+}
+
+div#m_hotBrand div ul li {
+    float: left;
+    overflow: hidden;
+}
+
+div#m_hotBrand div ul li p,
+div#m_hotBrand div ul li img {
+    width: 45%;
+    margin: 0 2.5%;
+    float: left;
+}
+
+div#m_hotBrand div ul li p {
+    font-size: 1rem;
+}
+
+div#m_hotBrand div ul li p span {
+    font-size: 2rem;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 1.5rem;
+}
+
+div#m_hotBrand button {
+    border: 0;
+    position: absolute;
+    bottom: -50px;
+    background-color: transparent;
+}
+
+div#m_hotBrand button#left-button {
+    left: 0;
+}
+
+div#m_hotBrand button#right-button {
+    right: 0;
+}
+
+div#m_hotBrand button:focus {
+    outline: none;
+}
+
+/*div#adBanner 시작*/
+
+div#adBanner {
+    position: relative;
+    overflow: hidden;
+}
+
+div#adBanner div.tri {
+    display: inline-block;
+    width: 0;
+    height: 33vw;
+    border-right: 0 solid transparent;
+    border-left: 100vw solid rgb(107, 70, 141);
+    border-bottom: 0 solid transparent;
+    border-top: 8vw solid transparent;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: -2;
+}
+
+div#adBanner div#text {
+    padding-top: 9vw;
+    width: 50%;
+    color: white;
+    float: left;
+    text-align: center;
+}
+
+div#adBanner div#text h3 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    border-bottom: 1px solid white;
+    padding-bottom: 1vw;
+
+    margin: auto;
+    width: 57%;
+    margin-top: 5%;
+}
+
+div#adBanner div#text p {
+    display: none;
+}
+
+div#adBanner div#text a {
+    color: white;
+    cursor: pointer;
+}
+
+div#adBanner img {
+    width: 30%;
+    margin-top: 10vw;
+}
+
+.button13 {
+    color: rgba(255, 255, 255, 1);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    position: relative;
+
+    line-height: 3rem;
+
+    width: 50%;
+    margin: 1rem auto;
+}
+
+.button13 a {
+    color: rgba(51, 51, 51, 1);
+    text-decoration: none;
+    display: block;
+}
+
+.button13::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.button13:hover::before {
+    opacity: 0;
+    -webkit-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
+}
+
+.button13::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.25);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+}
+
+.button13:hover::after {
+    opacity: 1;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+
+/*div#ourStory 시작*/
+div#ourStory {
+    display: none;
+}
+
+div#m_ourStory {
+    width: 100%;
+    padding-top: 0;
+    margin-bottom: 15vw;
+}
+
+div#m_ourStory div {
+    overflow: hidden;
+}
+
+div#m_ourStory ul li.imgWrap {
+    position: static;
+    margin: 0;
+}
+
+div#m_ourStory ul li {
+    float: left;
+    height: 150vw;
+}
+
+div#m_ourStory ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+div#m_ourStory > div {
+    position: relative;
+}
+
+div#m_ourStory div > div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vw;
+    color: white;
+    padding: 25vw 10%;
+    text-align: center;
+}
+
+div#m_ourStory > div > div p {
+    font-size: 1.5rem;
+    line-height: 8vw;
+}
+
+div#m_ourStory > div > div span,
+div#m_ourStory > div > div h4 {
+    font-size: 3rem;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+/*div#products 시작*/
+
+div#products span,
+div#products h4 {
+    font-size: 2.5rem;
+}
+
+div#products div.flip-container {
+    height: 100vw;
+}
+
+div#products div.flip-container div.flip-cards {
+    display: none
+}
+
+div#products div.flip-container div.flip-cards:first-child {
+    display: block;
+    height: 65vw;
+    margin: 15vw 0;
+}
+
+div#products {
+    text-align: center;
+}
+
+.flip-container {
+    position: relative;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+    width: 70%;
+    height: 16vw;
+    padding: 5vw 0;
+    margin: auto;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.flip-cards {
+    flex: 1;
+    margin: 0 1%;
+    position: relative;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.flip-cards:hover {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
+
+.flip-cards div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 50%;
+    box-shadow: 1px 1px 20px #000;
+}
+
+.front-card {
+    width: 100%;
+    height: 100%;
+    z-index: 88;
+    backface-visibility: hidden;
+}
+
+.reverse-card {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background-color: #333;
+    color: white;
+    width: 90%;
+    height: 90%;
+    padding: 5%;
+    backface-visibility: hidden;
+}
+
+.reverse-card h3 {
+    display: inline-block;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+.reverse-card p {
+    font-weight: 300;
+}
+
+#card1 {
+    background-image: url(../img/product01.png);
+    background-size: cover;
+}
+
+#card2 {
+    background-image: url(../img/product02.png);
+    background-size: cover;
+}
+
+#card3 {
+    background-image: url(../img/product03.png);
+    background-size: cover;
+}
+
+#card4 {
+    background-image: url(../img/product04.png);
+    background-size: cover;
+}
+
+
+div#review {
+    display: none;
+}
+
+
+/*footer 시작*/
+
+footer {
+    clear: both;
+    background-color: #333;
+    color: white;
+    overflow: hidden;
+    padding-bottom: 70px;
+}
+
+footer div#sns {
+    overflow: hidden;
+    padding: 3vw 0;
+}
+
+
+footer div#sns ul {
+
+    width: 40%;
+    margin: auto;
+}
+
+footer div#sns ul li {
+    display: inline-block;
+    width: 15%;
+    margin-left: 4%;
+}
+
+footer div#sns ul li a img {
+    width: 100%;
+}
+
+
+footer div#m_inner_foot {
+    border-top: 1px solid #ccc;
+    margin: 0 3%;
+    padding: 2vw 0;
+    overflow: hidden;
+}
+
+footer div#m_inner_foot h2 {
+    width: 10%;
+    float: left;
+}
+
+
+footer div#m_inner_foot div ul {
+    overflow: hidden;
+}
+
+footer div#m_inner_foot div ul li {
+    float: left;
+    margin-right: 1%;
+}
+
+footer div#m_inner_foot div ul li a {
+    color: white;
+    font-size: 0.8em;
+}
+
+footer div#m_inner_foot div {
+    float: none;
+    overflow: hidden;
+    width: 90%;
+}
+
+footer div#m_inner_foot div ul {
+    width: 92.5%;
+    float: right;
+    padding-top: 1vw;
+}
+
+footer div#m_inner_foot div + div {
+    width: 100%;
+    float: none;
+    margin: 8vw 0;
+}
+
+footer div#m_inner_foot div + div div {
+    width: 80%;
+    float: right;
+    margin-top: -2vw;
+}
+
+footer div#m_inner_foot div + div div span#span1 {
+    font-size: 1.2rem;
+}
+
+footer div#m_inner_foot div + div div span#span2 {
+    font-size: 2.5rem;
+}
+
+footer div#m_inner_foot div + div div span.square {
+    font-size: 0.8em;
+    border: 1px solid white;
+    padding: 3% .5%;
+    width: 40%;
+    text-align: center;
+    float: left;
+    margin-right: 4%;
+}
+
+
+
+footer div#inner_foot {
+    display: none;
+
+}

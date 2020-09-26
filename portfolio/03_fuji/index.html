@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FUJI FILM</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  
+  <link rel="stylesheet" href="css/style-min480.css">
+  <link rel="stylesheet" href="css/style-min601.css">
+  
+  <link rel="stylesheet" type="text/css" href="css/component.css" />
+  <link rel="stylesheet" href="css/reviewScroll.css" type="text/css">
+  <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" type="text/css">
+
+  <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+  <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/boxesFx.js"></script>
+  
+  <script src="js/navHover.js"></script>
+  <script src="js/navHeight.js"></script>
+  <script src="js/m_navHover.js"></script>
+  <script src="js/hotBrandTitle.js"></script>
+  <script src="js/m_hotBrand.js"></script>
+  <script src="js/m_ourStory.js"></script>
+  <script src="js/reviewScroll.js"></script>
+
+  <script src="js/Carousel.js"></script>
+  <script src="js/CarouselCall.js"></script>
+</head>
+
+<body>
+  <!--div#top 시작-->
+  <div id="top">
+    TOP
+  </div>
+  <!--div#top 끝-->
+
+  <!--header 시작-->
+  <!--header>h1(>a[index.html]>img[src][alt=logo])+nav(>ul>li*6>a[#none])+div#gnb(>ul>li*4>a[#none])-->
+  <header>
+    <h1><a href="index.html"><img src="img/logo.png" alt="logo"></a></h1>
+    <nav><!--pc버전 nav-->
+      <ul>
+        <li>
+          <a href="#none">PHOTO BOOK</a>
+          <ul>
+            <li>
+              <a href="#none">Real</a>
+            </li>
+            <li>
+              <a href="#none">Casual</a>
+            </li>
+            <li>
+              <a href="#none">Classic</a>
+            </li>
+            <li>
+              <a href="#none">Spring</a>
+            </li>
+            <li>
+              <a href="#none">Mini</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#none">PRINT</a>
+          <ul>
+            <li>
+              <a href="#none">Premium Print</a>
+            </li>
+            <li>
+              <a href="#none">Mobile Print</a>
+            </li>
+            <li>
+              <a href="#none">Calendar</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#none">PICKIT/PRINTER</a>
+          <ul>
+            <li>
+              <a href="#none">PICKIT</a>
+            </li>
+            <li>
+              <a href="#none">Cartridge</a>
+            </li>
+            <li>
+              <a href="#none">Canon Printer</a>
+            </li>
+            <li>
+              <a href="#none">Photo Stand</a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#none">CAMERA</a>
+          <ul>
+            <li>
+              <a href="#none">Digital Camera</a>
+            </li>
+            <li>
+              <a href="#none">Action cam</a>
+            </li>
+            <li>
+              <a href="#none">Case / Bag</a>
+            </li>
+            <li>
+              <a href="#none">Accessory</a>
+            </li>
+            <li>
+              <a href="#none">Presenter</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#none">LIFE STYLE</a>
+          <ul>
+            <li>
+              <a href="#none">LED Frame</a>
+            </li>
+            <li>
+              <a href="#none">Frames</a>
+            </li>
+            <li>
+              <a href="#none">Clock</a>
+            </li>
+            <li>
+              <a href="#none">Gallery</a>
+            </li>
+            <li>
+              <a href="#none">Stationary</a>
+            </li>
+            <li>
+              <a href="#none">Perfume</a>
+            </li>
+            <li>
+              <a href="#none">Candle</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#none">GrabPhic</a>
+          <ul>
+            <li>
+              <a href="#none">What is GrabPhic&#63;</a>
+            </li>
+            <li>
+              <a href="#none">Purchase</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div id="m_nav"><!--모바일 nav-->
+      <i id="burger" class="material-icons" onclick="burger()">
+            <img src="img/menu.png" alt="menu">
+        </i>
+      <i id="quit" class="material-icons" onclick="quit()">
+            <img src="img/cancel.png" alt="menu">
+        </i>
+      <div id="links">
+        <a href="">HOME</a>
+        <a href="">PHOTO BOOK</a>
+        <a href="">PRINT</a>
+        <a href="">PICKIT / PRINTER</a>
+        <a href="">CAMERA</a>
+      </div>
+    </div>
+  </header>
+  <!--header 끝-->
+
+  <!--div#gnb 시작-->
+  <div id="gnb">
+    <ul>
+      <li><a href="login.html">LOGIN</a></li>
+      <li><a href="#none">JOIN</a></li>
+      <li><a href="#none">MY PAGE</a></li>
+      <li><a href="#none">CART</a></li>
+    </ul>
+  </div>
+  <!--div#gnb 끝-->
+
+  <!--div#section 시작-->
+  <div id="section" class="container">
+    <div id="boxgallery" class="boxgallery" data-effect="effect-3">
+      <div class="panel"><img src="img/banner01.jpg" alt="Image 2" /></div>
+      <div class="panel"><img src="img/banner02.jpg" alt="Image 3" /></div>
+      <div class="panel"><img src="img/banner03.jpg" alt="Image 1" /></div>
+      <div class="panel"><img src="img/banner02.jpg" alt="Image 1" /></div>
+    </div>
+    <p>
+      <span>
+        The begin<br>
+        of Innovation
+      </span>
+      Fuji Film is trying to make the world<br> healthier and happier.<br> Find out more.
+      <a class="actionBtn3" id="moreInfo">
+          <span class="back">More Info</span>
+          <span class="front">More Info</span>
+      </a>
+    </p>
+  </div>
+
+  <script>
+    new BoxesFx(document.getElementById('boxgallery'));
+  </script>
+  <!--div#section 끝-->
+
+  <!--div#boxWrap 시작-->
+  <!--div#boxWrap>figure.box*3>img+figcaption-->
+  <div id="boxWrap">
+    <figure class="box">
+      <img src="img/polaroid01.jpg" alt="">
+      <figcaption>
+        <span>FUJIFILM X-H1</span> The highest performance camera in the X Series range
+      </figcaption>
+    </figure>
+    <figure class="box">
+      <img src="img/polaroid02.jpg" alt="">
+      <figcaption>
+        <span>FUJIFILM X-T3</span> X Series’ evolution into the 4th generation
+      </figcaption>
+    </figure>
+    <figure class="box">
+      <img src="img/polaroid03.jpg" alt="">
+      <figcaption>
+        <span>FUJIFILM X-T20</span> 24.3MP X-Trans CMOS III sensor and X-Processor Pro in a compact and lightweight body
+      </figcaption>
+    </figure>
+  </div>
+  <!--div#boxWrap 끝-->
+
+  <!--div#hotBrand 시작-->
+  <!--div#hotBrand>h2(>span)+figure*4(>img[img/replaceImg.jpg]+figcaption(>span))-->
+  <div id="hotBrand"><!--pc버전 div#hotBrand-->
+    <h2>
+      <span id="hot">HOT</span>
+      <span id="brand">BRAND
+        <span>
+          Fuji Film continues to improve the quality<br>
+          of  its popular film and camera products.
+        </span>
+      </span>
+    </h2>
+    <div id="wholeWrap">
+      <div>
+        <figure>
+          <div class="hovereffect">
+            <img class="img-responsive" src="img/hotBrand01.jpg" alt="">
+            <div class="overlay">
+              <a>INSTAX</a>
+              <p>
+                <a href="#">Experience the magic that unfolds as soon as you add INSTAX to your life</a>
+              </p>
+            </div>
+          </div>
+          <figcaption>
+            <h5>INSTAX</h5>
+            <p>Experience the magic that unfolds as soon as you add INSTAX to your life</p>
+            <span>01</span>
+          </figcaption>
+        </figure>
+        <figure>
+          <div class="hovereffect">
+            <img class="img-responsive" src="img/hotBrand03.jpg" alt="">
+            <div class="overlay">
+              <a>X-Series</a>
+              <p>
+                <a href="#">"FUJIFILM X" combines traditional styling with cutting edge innovative technology.</a>
+              </p>
+            </div>
+          </div>
+          <figcaption>
+            <h5>X-Series</h5>
+            <p>"FUJIFILM X" combines traditional styling with cutting edge innovative technology.</p>
+            <span>03</span>
+          </figcaption>
+        </figure>
+      </div>
+      <div id="rightWrap">
+        <figure>
+          <div class="hovereffect">
+            <img class="img-responsive" src="img/hotBrand02.jpg" alt="">
+            <div class="overlay">
+              <a>GO PRO</a>
+              <p>
+                <a href="#">Gopro allows and inspire people to have a free moment.</a>
+              </p>
+            </div>
+          </div>
+          <figcaption>
+            <h5>GO PRO</h5>
+            <p>Gopro allows and inspire people to have a free moment.</p>
+            <span>02</span>
+          </figcaption>
+        </figure>
+        <figure>
+          <div class="hovereffect">
+            <img class="img-responsive" src="img/hotBrand04.jpg" alt="">
+            <div class="overlay">
+              <a>PICK IT</a>
+              <p>
+                <a href="#">A mini photo studio with high quality and reasonable maintenance costs.</a>
+              </p>
+            </div>
+          </div>
+          <figcaption>
+            <h5>PICK IT</h5>
+            <p>A mini photo studio with high quality and reasonable maintenance costs.</p>
+            <span>04</span>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+  <!--div#hotBrand 끝-->
+
+  <!--div#m_hotBrand 시작-->
+  <div id="m_hotBrand">
+    <h2>HOT BRAND</h2>
+    <div>
+      <ul>
+        <li>
+          <p>
+            <span>INSTAX</span> Experience the magic that unfolds as soon as you add to your life.
+          </p>
+          <img src="img/hotBrand01.jpg" alt="">
+        </li>
+        <li>
+          <p>
+            <span>GO PRO</span> Gopro allows and inspire people to have a free moment.
+          </p>
+          <img src="img/hotBrand02.jpg" alt="">
+        </li>
+        <li>
+          <p>
+            <span>X-Series</span> "FUJIFILM X" combines traditional styling with cutting edge innovative technology.
+          </p>
+          <img src="img/hotBrand03.jpg" alt="">
+        </li>
+        <li>
+          <p>
+            <span>PICK IT</span> A mini photo studio with high quality and reasonable maintenance costs.
+          </p>
+          <img src="img/hotBrand04.jpg" alt="">
+        </li>
+      </ul>
+    </div>
+    <button id="left-button">&lt;</button>
+    <button id="right-button">&gt;</button>
+  </div>
+  <!--div#m_hotBrand 끝-->
+
+  <!--div#adBanner 시작-->
+  <!--div#adBanner>div#text(>h3+p+span)+img-->
+  <div id="adBanner">
+    <div class="tri"></div>
+    <div id="text">
+      <h3>Cameras</h3>
+      <p>
+        The central themes of the GFX &amp; X Series are<br> simplicity and elegance. the camera is a precision instrument,<br> but one that's combined with a functional beauty.
+      </p>
+      <div class="sim-button button13">
+        <a>More Info</a>
+      </div>
+    </div>
+    <img src="img/camera.png" alt="camera">
+  </div>
+  <!--div#adBanner 끝-->
+
+  <!--div#ourStory 시작-->
+  <!--div#ourStory>div.imgWrap(>img)+div#textWrap(>span+h4+p+div#smallImg)+div.imgWrap(>img)-->
+  <div id="ourStory">
+    <div class="container2" id="container">
+      <ul>
+        <li>
+          <img src="img/ourStory01.jpg" alt="" />
+          <div>
+            <span>Fuji Film</span>
+            <h4>OUR STORY</h4>
+            <p>
+              Beginning in 1934 as Japan's pioneering photographic film maker, Fujifilm has leveraged its imaging and information technology to become a global presence known for innovation
+            </p>
+            <div>
+              <img src="img/smallImg.png" alt="small camera">
+            </div>
+          </div>
+        </li>
+        <li>
+          <img src="img/ourStory02.jpg" alt="" />
+        </li>
+        <li>
+          <img src="img/ourStory03.jpg" alt="" />
+        </li>
+        <img src="img/left.png" class="left">
+        <img src="img/right.png" class="right">
+      </ul>
+    </div>
+  </div>
+  <!--div#ourStory 끝-->
+
+  <!--div#m_ourStory 시작-->
+  <div id="m_ourStory">
+    <div class="ulWrap">
+      <ul>
+        <li class="imgWrap">
+          <img src="img/m_ourStory01.jpg" alt="">
+        </li>
+        <li>
+          <img src="img/m_ourStory02.jpg" alt="">
+        </li>
+        <li class="imgWrap">
+          <img src="img/m_ourStory03.jpg" alt="">
+        </li>
+      </ul>
+      <div>
+        <span>Fuji Film</span>
+        <h4>OUR STORY</h4>
+        <p>
+          Beginning in 1934 as Japan's pioneering photographic film maker, Fujifilm has leveraged its imaging and information technology to become a global presence known for innovation
+        </p>
+      </div>
+    </div>
+  </div>
+  <!--div#m_ourStory 끝-->
+
+  <!--div#products 시작-->
+  <div id="products">
+    <span>Fuji Film</span>
+    <h4>OUR PRODUCTS</h4>
+    <div class="flip-container">
+      <div class="flip-cards">
+        <div class="front-card" id="card1"></div>
+        <div class="reverse-card">
+          <h3>Camera name</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, animi? Quam libero architecto at, quidem! Similique incidunt sit minima</p>
+        </div>
+      </div>
+      <div class="flip-cards">
+        <div class="front-card" id="card2"></div>
+        <div class="reverse-card">
+          <h3>Camera name</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, animi? Quam libero architecto at, quidem! Similique incidunt sit minima</p>
+        </div>
+      </div>
+      <div class="flip-cards">
+        <div class="front-card" id="card3"></div>
+        <div class="reverse-card">
+          <h3>Camera name</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, animi? Quam libero architecto at, quidem! Similique incidunt sit minima</p>
+        </div>
+      </div>
+      <div class="flip-cards">
+        <div class="front-card" id="card4"></div>
+        <div class="reverse-card">
+          <h3>Camera name</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, animi? Quam libero architecto at, quidem! Similique incidunt sit minima</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--div#products 끝-->
+
+  <!--div#review 시작-->
+  <div id="review" class="showcase scrollTo-demo">
+    <div id="examples">
+      <!-- content -->
+      <div id="title">
+        <h4>
+          <span>
+              From Our
+          </span>
+          <span>
+              Clients
+          </span>
+        </h4>
+        <span>&#43; 15,230</span>
+        <p>
+          We can guearantee quality with reliable reviews.
+        </p>
+      </div>
+      <div class="content demo-x">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        <p id="test-id">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+        <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>End of content.</p>
+      </div>
+    </div>
+  </div>
+  <!--div#review 끝-->
+
+  <!--footer 시작-->
+  <!--footer>div#sns(>ul>li*4>a[#none]>img)+div(>h2+div(>ul(>li*7>a[#none])+p))+div(>span+span+p+span.square*2)-->
+  <footer>
+    <div id="sns">
+      <ul>
+        <li>
+          <a href="#none">
+                    <img src="img/facebook.png" alt="facebook">
+                </a>
+        </li>
+        <li>
+          <a href="#none">
+                    <img src="img/instagram.png" alt="instagram">
+                </a>
+        </li>
+        <li>
+          <a href="#none">
+                    <img src="img/twitter.png" alt="twitter">
+                </a>
+        </li>
+        <li>
+          <a href="#none">
+                    <img src="img/youtube.png" alt="youtube">
+                </a>
+        </li>
+      </ul>
+    </div>
+    <div id="inner_foot">
+      <!--pc버전 div#inner_foot-->
+      <h2>logo</h2>
+      <div>
+        <ul>
+          <li>
+            <a href="#none">이용약관</a>
+          </li>
+          <li>
+            <a href="#none">개인정보처리방침</a>
+          </li>
+          <li>
+            <a href="#none">이메일무단수집거부</a>
+          </li>
+          <li>
+            <a href="#none">SSL보안인증</a>
+          </li>
+        </ul>
+        <p>
+          COPYRIGHT(C) 2014 한국후지필름(주). ALL RIGHTS RESERVED.<br> 사업자등록번호 : 248-86-00926 대표 : 박호성 통신판매업신고번호 : 제2018-서울금천-0462호 개인정보 보호책임자 : 안병규<br> 사업자명 : 한국후지필름(주) 서울시 금천구 가산디지털1로 222 어바니엘가산 2층 TEL : 02-3281-7700 FAX : 02-3281-4070<br>
+        </p>
+      </div>
+      <div>
+        <span id="span1">고객센터</span>
+        <span id="span2">02&#45;123&#45;4567</span>
+        <p>
+          평일 09:00 ~ 18:00 (점심시간 12:00 ~ 13:00)<br> 토,일요일, 공휴일 휴무
+        </p>
+        <span class="square">1&#58;1 문의</span>
+        <span class="square">매장 찾기</span>
+      </div>
+
+    </div>
+    <div id="m_inner_foot">
+      <!--모바일 버전 div#m_inner_foot-->
+      <h2>logo</h2>
+      <div>
+        <ul>
+          <li>
+            <a href="#none">이용약관</a>
+          </li>
+          <li>
+            <a href="#none">개인정보처리방침</a>
+          </li>
+          <li>
+            <a href="#none">이메일무단수집거부</a>
+          </li>
+          <li>
+            <a href="#none">SSL보안인증</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <span id="span1">고객센터</span>
+        <div>
+          <span id="span2">02&#45;123&#45;4567</span>
+          <p>
+            평일 09:00 ~ 18:00 (점심시간 12:00 ~ 13:00)<br> 토,일요일, 공휴일 휴무
+          </p>
+          <span class="square">1&#58;1 문의</span>
+          <span class="square">매장 찾기</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--footer 끝-->
+</body>
+
+</html>

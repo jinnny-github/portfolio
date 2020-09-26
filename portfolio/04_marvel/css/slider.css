@@ -1,0 +1,58 @@
+/*플러그인 수정*/
+/*flexslider 수정*/
+.flexslider{
+    border: 0px !important;
+    margin: 0 0 5vw !important;
+    background-color: #111 !important;
+    /*margin:위 오 아 왼 순인데 
+    값을 3가지를 기입할 때는
+    margin: 위 좌우 아래 순으로 기입하면 된다.*/
+}
+
+.flex-control-nav{
+    bottom: 10px !important;
+}
+
+.flex-control-nav li{
+    margin: 0 10px !important;
+}
+
+.flex-control-paging li a.flex-active{
+    background-color: rgb(198,56,7) !important;
+}
+
+.flex-control-paging li a{
+    background-color: white !important;
+    width: 13px !important;
+    height: 13px !important;
+}
+
+/*bxslider 수정*/
+.bx-wrapper img{
+    width: 100% !important;
+}
+
+.bx-wrapper {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
+    background: transparent !important;
+    margin-bottom: 10vw !important;
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+    text-align: right !important;
+    width: 20% !important;
+    right: 0;
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+    width: 100% !important;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover, 
+.bx-wrapper .bx-pager.bx-default-pager a.active, 
+.bx-wrapper .bx-pager.bx-default-pager a:focus{
+    background-color: white !important;
+}

@@ -1,0 +1,67 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster+Two:700italic,700);
+@import url(http://fonts.googleapis.com/css?family=Oswald:300);
+
+div#review{
+  width: 80%;
+  float: right;
+  background-image: url("../img/reviewBg.jpg");
+  background-size: cover;
+  height: 40vw;
+  margin: 5vw 0;
+  color: #fff;
+}
+
+div#review div#examples > div{
+  margin-top: 7vw;
+}
+
+div#review div#examples div#title{
+  padding: 0 4%;
+}
+
+div#review div#examples div#title > h4 > span{
+  display: block;
+  font-size: 2rem;
+}
+
+div#review div#examples div#title > span{
+  display: inline-block;
+  margin-top: 10vw;
+  font-size: 2.5rem;
+}
+
+.content {
+  overflow: auto;
+  position: relative;
+  background: #333;
+  max-width: 97%;
+  padding-bottom: 5%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.showcase #title{
+  width: 20%;
+  float: left;
+}
+
+.scrollTo-demo .demo-x {
+  float: right;
+  width: 70%;
+  background-color: transparent;
+}
+
+.scrollTo-demo .demo-x p {
+  float: left;
+  width: 25rem;
+  margin-left: 30px;
+  height: 15vw;
+  padding: 5px 10px;
+  background-color: #fff;
+  color: #333;
+}
+
+.scrollTo-demo .demo-x p:first-child{
+  margin-left: 0;
+}

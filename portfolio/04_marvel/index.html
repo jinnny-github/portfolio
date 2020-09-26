@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARVEL STUDIO</title>
+    <link href="css/reset.css" type="text/css" rel="stylesheet">
+    <link href="css/common.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style-mobile.css" type="text/css">
+    <link rel="stylesheet" href="css/style-min480.css">
+    
+    <link href="css/flexslider.css" type="text/css" rel="stylesheet">
+    <link href="css/jquery.bxslider.css" type="text/css" rel="stylesheet">
+    
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/quickScroll.js"></script>
+    <script src="js/topScroll.js"></script>
+    <script src="js/navHover.js"></script>
+    
+    <script src="js/newsClick.js"></script>
+    <script src="js/newsAnimate.js"></script>
+    <script src="js/figureHover.js"></script>
+    
+    <script src="js/footerAni.js"></script>
+    
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/flexslider.js"></script>
+    
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/bxslider.js"></script>
+</head>
+
+<body>
+    <div id="quick">
+       <ul>
+           <li><a href="#none">행사일정</a></li>
+           <li><a href="#none">시설소개</a></li>
+           <li><a href="#none">요금안내</a></li>
+           <li><a href="#none">예약하기</a></li>
+           <li><a href="#none">오시는길</a></li>
+       </ul>
+    </div>
+   
+    <div id="top">
+       <!--<span>▲</span>TOP-->
+       <img src="images/top.png" alt="">
+    </div>
+    
+    <!--div#gnb 시작-->
+    <!--div#gnb(>div.wrap80>ul>li*4>a[href=#none])+header>h1(>a[href=index.html]>img[images/logo.png])+nav(>ul>li*6>a[#none])-->
+    <div id="gnb" class="ovh">
+        <div class="wrap80">
+            <ul>
+                <li><a href="#none">홈</a></li>
+                <li><a href="#none">로그인</a></li>
+                <li><a href="#none">Contact us</a></li>
+                <li><a href="#none">English</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--div#gnb 끝-->
+    
+    <!--header 시작-->
+    <header class="wrap80">
+       <!--
+           디자인 시안을 보면 header의 배경색이 흰색이기 때문에
+           굳이 h1과 nav를 감싸는 div를 만들지는 않아도 괜찮다.
+           원래는 div를 추가로 만드는 것이 좋음!!
+       -->
+        <h1><a href="index.html"><img src="images/logo.png" alt="logo"></a></h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#none">WATCH VIDEOS</a>
+                    <ul>
+                        <li><a href="#none">TRAILERS &amp; EXTRAS</a></li>
+                        <li><a href="#none">DEGITAL SERIES</a></li>
+                        <li><a href="#none">ALL VIDEOS</a></li>
+                    </ul>
+                </li><li>
+                   <!--display:inline-block; 요소의 enter의 공백을 잡아서 정리를 해줘야 한다.-->
+                    <a href="#none">EXPLORE</a>
+                    <ul>
+                        <li><a href="#none">CHARACTERS</a></li>
+                        <li><a href="#none">GROUPS</a></li>
+                        <li><a href="#none">EXPLORE ALL</a></li>
+                    </ul>
+                </li><li>
+                    <a href="#none">READ COMICS</a>
+                    <ul>
+                        <li><a href="#none">Release Calendar</a></li>
+                        <li><a href="#none">Marvel Unlimited</a></li>
+                        <li><a href="#none">Shop Digital Comics</a></li>
+                        <li><a href="#none">Reading Lists</a></li>
+                        <li><a href="#none">Print Subscriptions</a></li>
+                        <li><a href="#none">All Comics</a></li>
+                    </ul>
+                </li><li>
+                    <a href="#none">MOVIES</a>
+                    <ul>
+                        <li><a href="#none">Avengers Untitled</a></li>
+                        <li><a href="#none">Captain Marvel </a></li>
+                        <li><a href="#none">Ant Man and the Wasp</a></li>
+                        <li><a href="#none">See all movies</a></li>
+                    </ul>
+                </li><li>
+                    <a href="#none">TV SHOWS</a>
+                    <ul>
+                        <li><a href="#none">The Gifted &#124; Season 2</a></li>
+                        <li><a href="#none">Marvel&#39;s Iron Fist &#124; Season 2</a></li>
+                        <li><a href="#none">Marvel&#39;s Luke Cage &#124; Season 2</a></li>
+                        <li><a href="#none">See all TV Shows</a></li>
+                    </ul>
+                </li><li>
+                    <a href="#none">GAMES</a>
+                    <ul>
+                        <li><a href="#none">Marvel&#39;s Spider-Man</a></li>
+                        <li><a href="#none">Marvel Strike Force</a></li>
+                        <li><a href="#none">Marvel Powers United VR</a></li>
+                        <li><a href="#none">See all Games</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div id="m_nav">
+            <img src="images/menu.png" alt="menu">
+        </div>
+    </header>
+    <!--header 끝-->
+    
+    <!--section 시작-->
+    <!--section(>ul>li*3>img[src=images/banner0$.png])+article>h2{프로그램 소개}+span.hr+div.wrap>figure*3>img[src=images/program0$.png]+figcaption-->
+    <section class="flexslider ovh">
+       <h2>banner image</h2>
+        <ul class="slides">
+            <li><img src="images/banner01.png" alt=""></li>
+            <li><img src="images/banner02.png" alt=""></li>
+            <li><img src="images/banner03.png" alt=""></li>
+        </ul>
+    </section>
+    <!--section 끝-->
+    
+    <!--article 시작-->
+    <article class="wrap70">
+        <h2>MARVEL HEROES</h2>
+        <span class="hr"></span>
+        <div class="wrap">
+            <figure>
+                <img src="images/program01.png" alt="">
+                <figcaption>
+                   <span>IRON MAN</span>
+                    Iron Man is a fictional superhero appearing in American comic books published by Marvel Comics. The character was created by writer and editor Stan Lee, developed by scripter Larry Lieber, and designed by artists Don Heck and Jack Kirby. 
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/program02.png" alt="">
+                <figcaption>
+                    <span>CAPTAIN AMERICA</span>
+                    Iron Man is a fictional superhero appearing in American comic books published by Marvel Comics. The character was created by writer and editor Stan Lee, developed by scripter Larry Lieber, and designed by artists Don Heck and Jack Kirby. 
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/program03.png" alt="">
+                <figcaption>
+                    <span>SPIDER MAN</span>
+                    Iron Man is a fictional superhero appearing in American comic books published by Marvel Comics. The character was created by writer and editor Stan Lee, developed by scripter Larry Lieber, and designed by artists Don Heck and Jack Kirby. 
+                </figcaption>
+            </figure>
+        </div>
+    </article>
+    <!--article 끝-->
+    
+    <!--div#news 시작-->
+    <!--div#news.wrap80(>h2{최신 뉴스}+span.hr>div.fl+div.fr)+div#popup.wrap80(>h2{팝업존}+span.hr+ul>li>img[src=images/popup.png])+div#sns.wrap80>ul>li*3>a[#none]>img[src=images/sns0$.png]-->
+    <div id="news" class="wrap70 ovh">      
+       <h2>NEWS</h2>
+       <span class="hr"></span>
+       <div class="fl">
+           <ul>
+               <li data-new="1"><a href="#none">LATEST MOVIES</a></li>
+               <li data-new="2"><a href="#none">TV SHOW</a></li>
+               <li data-new="3"><a href="#none">GAME</a></li>
+           </ul>
+           <div id="list1">
+               <ul>
+                   <li><a href="#none">베놈 &#40;Venom, 2018&#41;</a></li>
+                   <li><a href="#none">앤트맨과 와스프 &#40;Ant-Man and the Wasp, 2018&#41;</a></li>
+                   <li><a href="#none">어벤져스: 인피니티 워 &#40;Avengers: Infinity War, 2018&#41;</a></li>
+                   <li><a href="#none">블랙 팬서 &#40;Black Panther, 2018&#41;</a></li>
+                   <li><a href="#none">토르: 라그나로크 &#40;Thor: Ragnarok, 2017&#41;</a></li>
+               </ul>
+           </div>
+            <div id="list2">
+               <ul>
+                   <li><a href="#none">The Gifted &#124; Season 2 &#40;SEP 25, 2018&#41;</a></li>
+                   <li><a href="#none">Marvel's Iron Fist &#124; Season 2 &#40;2018&#41;</a></li>
+                   <li><a href="#none">Marvel's Luke Cage &#124; Season 2 &#40;2018&#41;</a></li>
+                   <li><a href="#none">Marvel's Jessica Jones &#124; Season 2 &#40;2018&#41;</a></li>
+                   <li><a href="#none">Marvel's Cloak &amp; Dagger | Season 1 &#40;2018&#41;</a></li>
+               </ul>
+           </div>
+            <div id="list3">
+               <ul>
+                   <li><a href="#none">Marvel's Spider-Man &#40;2018&#41;</a></li>
+                   <li><a href="#none">Marvel Strike Force &#40;2018&#41;</a></li>
+                   <li><a href="#none">Marvel Powers United VR &#40;2018&#41;</a></li>
+                   <li><a href="#none">Marvel Contest of Champions &#40;2018&#41;</a></li>
+                   <li><a href="#none">Marvel Future Fight &#40;2018&#41;</a></li>
+               </ul>
+           </div>
+           
+       </div>
+       <div class="fr">
+           <h3>MOVIE STILL CUT</h3>
+           <div id="gallery" class="ovh">
+               <ul id="ani" class="ovh">
+                   <li><img src="images/photoNews01.png" alt=""></li>
+                   <li><img src="images/photoNews02.png" alt=""></li>
+                   <li><img src="images/photoNews03.png" alt=""></li>
+                   <li><img src="images/photoNews04.png" alt=""></li>
+               </ul>
+           </div>
+           
+           <div id="btnWrap">
+               <button id="left">
+                   <img src="images/left-arrow.png" alt="">
+               </button>
+               <button id="right">
+                   <img src="images/right-arrow.png" alt="">
+               </button>
+               
+           </div>
+           
+           
+       </div>
+    </div>
+    <!--div#news 끝-->
+    
+    <!--div#thorWrap 시작-->
+    <div id="thorWrap">
+        <div id="thor" class="wrap70">
+            <div>
+                <h3><span>TH</span><span>O</span><span>R</span></h3>
+                <img src="images/thorHammer.png" alt="">
+            </div>
+            <span id="name">
+                I R O N M A N&nbsp;&nbsp;G L O V E S
+            </span>
+            <span class="red">
+                &#36;54.98
+            </span>
+            <p>
+                This is a pair of iron man repulsor gloves. The right glove has a light button and sound effects. Works great! Flashes and looks realistic. The left is non electronic but is made to look like the other to match. These are clean and have no rips or tears. The gold paint on one has a little wear.
+            </p>
+            <span id="roundBox">C L I C K !</span>
+        </div>
+        <div id="light"></div>
+    </div>
+    <!--div#thorWrap 끝-->
+    
+    <!--div#captain 시작-->
+    <div id="captain" class="wrap70 ovh">
+        <div class="fl">
+            <span>Inspiration</span>
+            <h3>
+                CAPTAIN<br>
+                AMERICA
+            </h3>
+            <p>
+                <span>
+                    Captain America is a fictional superhero appearing in American comic books published by Marvel
+                </span>
+                <span>
+                    Comics. Created by cartoonists Joe Simon and Jack Kirby, the character first appeared in Captain
+                </span>
+                <span>
+                    America Comics #1 (cover dated March 1941) from Timely Comics, a predecessor of Marvel Comics. 
+                </span>
+                
+            </p>
+            <p>
+                Captain America was designed as a patriotic supersoldier who often fought the Axis powers of World 
+                War II and was Timely Comics' most popular character during the wartime period. The popularity of 
+                superheroes waned following the war and the Captain America comic book was discontinued in 1950, 
+                with a short-lived revival in 1953. Since Marvel Comics revived the character in 1964, Captain America 
+                has remained in publication.
+            </p>
+        </div>
+        <div class="fr rel">
+            <div id="blackBox" class="fl"></div>
+            <div id="redBox" class="fl"></div>
+            <div class="imgWrap abs">
+                <img src="images/captain.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!--div#captain 끝-->
+    
+    <!--div#character 시작-->
+    <div id="character" class="wrap70 ovh">
+        <h3>MARVEL CHARACTER</h3>
+        <div class="fl">
+            <p>
+                The Avengers began as a group of extraordinary individuals who were assembled to defeat Loki and his Chitauri army in New York City. Since then, the team has expanded its roster and faced a host of new threats, while dealing with their own turmoil.
+            </p>
+            <div class="fl">
+                <div class="imgWrap">
+                    <img src="images/character01.jpg" alt="">
+                </div>
+                <div class="imgWrap">
+                    <img src="images/character02.jpg" alt="">
+                </div>
+            </div>
+            <div class="fr">
+                <img src="images/character03.jpg" alt="">
+            </div>
+        </div>
+        <div class="fr">
+            <div class="imgWrap">
+                <img src="images/character04.jpg" alt="">
+            </div>
+            <div class="imgWrap fl">
+                <img src="images/character05.jpg" alt="">
+            </div>
+            <div class="imgWrap fl">
+                <img src="images/character06.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!--div#character 끝-->
+    
+    <!--div#popup 시작-->
+    <div id="popup" class="wrap70">
+        <h2>POPUP ZONE</h2>
+        <span class="hr"></span>
+        <ul class="bxslider">
+            <li><img src="images/popup_1.png" alt=""><img src="images/m_popup_1.png" alt=""></li>
+            <li><img src="images/popup_2.png" alt=""><img src="images/m_popup_2.png" alt=""></li>
+            <li><img src="images/popup_3.png" alt=""><img src="images/m_popup_3.png" alt=""></li>
+        </ul>
+    </div> 
+    <!--div#popup 끝-->
+    
+    <!--div#sns 시작-->
+    <!--<div id="sns" class="wrap80">
+        <ul>
+            <li>
+                <a href="#none">
+                    <img src="images/facebook.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#none">
+                    <img src="images/instagram.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#none">
+                    <img src="images/twitter.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#none">
+                    <img src="images/youtube.png" alt="">
+                </a>
+            </li>
+        </ul>
+    </div>-->
+    <!--div#sns 끝-->
+    
+    <!--footer 시작-->
+    <!--footer>div.wrap80>div.fl(ul(>li*5>a[#none])+p)+div.fr>ul>li*5>img[images/footerimg0$.png]-->
+    <footer class="ovh">
+        <div class="wrap70">
+            <div class="fl">
+                <ul>
+                    <li><a href="#none">ABOUT MARVEL</a></li>
+                    <li><a href="#none">HELP / FAQS</a></li>
+                    <li><a href="#none">CAREERS</a></li>
+                    <li><a href="#none">INTERNSHIPS</a></li>
+                </ul>
+                <p>
+                    Marvel Entertainment, LLC, a wholly-owned subsidiary of The Walt Disney Company, is one of the world's most prominent character-based<br>
+                    entertainment companies, built on a proven library of more than 8,000 characters featured in a variety of media over seventy-five years.<br>
+                    Marvel utilizes its character franchises in entertainment, licensing and publishing. For more information visit marvel.com. © 2018 MARVEL
+                </p>
+                <p id="m_p">
+                    Marvel utilizes its character franchises in entertainment, licensing and publishing. For more information visit marvel.com.<br> 
+                    © 2018 MARVEL
+                </p>
+            </div>
+            <div class="fr">
+              <div class="footerBtn">
+                  <button id="ltBtn">
+                      <img src="images/footerBtn-left.png" alt="">
+                  </button>
+                  <button id="gtBtn">
+                      <img src="images/footerBtn-right.png" alt="">
+                  </button>
+              </div>
+               <div class="aniWrap">
+                   <ul>
+                        <li>
+                            <a href="#none">
+                                <img src="images/facebook.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <img src="images/instagram.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <img src="images/twitter.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <img src="images/youtube.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <img src="images/kakaoStory.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <img src="images/blog.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+               </div>
+            </div>
+        </div>
+    </footer>
+    <!--footer 끝-->
+</body>
+</html>

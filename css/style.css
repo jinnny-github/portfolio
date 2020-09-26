@@ -1,0 +1,139 @@
+body, div, a, p{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*background: #28223F;*/
+    background: linear-gradient(0deg, #A8BFFF 0%, #884D80 100%);
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+@keyframes rotate {
+    0% {
+        transform: perspective(400px) rotateZ(0deg) rotateX(-40deg) rotateY(0);
+    }
+
+    100% {
+        transform: perspective(400px) rotateZ(0deg) rotateX(-40deg) rotateY(-360deg);
+    }
+}
+
+.stars {
+    transform: perspective(120000px);
+    transform-style: preserve-3d;
+    position: absolute;
+    bottom: 0;
+    perspective-origin: 100% 100%;
+    left: 50%;
+    animation: rotate 500s infinite linear;
+}
+
+.star {
+    width: 2px;
+    height: 2px;
+    background: #e5e5ff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: 0 0 -300px;
+    transform: translate3d(0, 0, -300px);
+    backface-visibility: hidden;
+}
+
+.moon-shadow {
+    box-shadow: 0 0 55px 4px #b2b2ff;
+    height: 150px;
+    position: relative;
+    width: 150px;
+}
+
+.moon {
+    background: #e5e5ff;
+    border-radius: 50%;
+    height: 150px;
+    margin: auto;
+    position: relative;
+    top: 12vw;
+    width: 150px;
+}
+
+.moon .moon-body {
+    height: 150px;
+    width: 150px;
+}
+
+.moon .crater1 {
+    background: #ccccff;
+    border-radius: 50%;
+    height: 10px;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    width: 10px;
+}
+
+.moon .crater2 {
+    background: #ccccff;
+    border-radius: 50%;
+    height: 20px;
+    position: absolute;
+    right: 34px;
+    top: 34px;
+    width: 20px;
+}
+
+.moon .crater3 {
+    background: #ccccff;
+    border-radius: 50%;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 57px;
+    width: 30px;
+}
+
+.ground {
+    opacity: 1;
+    margin-top: 10vw;
+    position: sticky;
+}
+
+.ground p {
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 2px 2px 8px #b2b2ff;
+    padding: 5vw 0 2vw;
+}
+
+.go{
+    width: 10%;
+    border: 1px solid white;
+    margin: auto;
+    border-radius: 50px;
+    box-shadow: 0px 0px 15px #b2b2ff;
+}
+
+.go a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 1vw 0;
+}
+
+.go:hover{
+    animation: button 0.7s infinite;
+}
+
+@keyframes button{
+    0%{
+        background-color: rgba(255,255,255,0.2);
+    }
+    100%{
+        background-color: transparent;
+    }
+}

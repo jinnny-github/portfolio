@@ -1,0 +1,19 @@
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 15px;
+  }
+
+  div#earlyB div.left h3 {
+    margin-top: 10vw;
+    font-size: 4rem;
+  }
+
+  div#adBanner div.twinkling h3 {
+    font-size: 3rem;
+  }
+
+  div#tours {
+    padding: 10vw 0 15vw;
+    background-position: 0 -20vw;
+  }
+}

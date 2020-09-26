@@ -1,0 +1,216 @@
+@media only screen and (min-width: 601px) {
+    div#hotBrand > h2 > span {
+        font-size: 6.5rem;
+    }
+
+    header nav {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 701px) {
+    div#hotBrand > h2 > span {
+        font-size: 8rem;
+    }
+
+    div#boxWrap {
+        position: relative;
+        width: 70%;
+        margin: auto;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        margin-top: -7vw;
+        z-index: 88;
+    }
+
+    div#boxWrap figure.box {
+        flex: 1;
+        margin: 1%;
+        background-color: white;
+        transition: all 0.3s;
+    }
+
+    div#boxWrap figure.box:hover {
+        box-shadow: 0px 0px 20px darkgray;
+    }
+
+    div#boxWrap figure.box img {
+        width: 90%;
+        margin: 5%;
+    }
+
+    div#boxWrap figure.box:hover img {
+        opacity: 1;
+        -webkit-animation: flash 1s;
+        animation: flash 1s;
+    }
+
+    @-webkit-keyframes flash {
+        0% {
+            opacity: .4;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes flash {
+        0% {
+            opacity: .4;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    div#boxWrap figure.box figcaption {
+        margin: 0 5% 5% 5%;
+        padding: 0 5%;
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+    div#boxWrap figure.box figcaption span {
+        display: block;
+        font-weight: 600;
+        font-size: 1.5rem;
+        padding-bottom: 1vw;
+    }
+}
+
+@media only screen and (min-width: 801px) {
+    div#hotBrand > h2 > span {
+        font-size: 9.5rem;
+    }
+}
+
+@media only screen and (min-width: 901px) {
+    div#hotBrand > h2 > span {
+        font-size: 10.5rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    html {
+        font-size: 12px;
+    }
+
+    header nav {
+        width: 70%;
+    }
+
+    div#hotBrand > h2 > span {
+        font-size: 10rem;
+    }
+
+    div#hotBrand > h2 > span > span {
+        display: block;
+    }
+
+    div#hotBrand > h2 > span#brand > span {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (min-width: 1101px) {
+    div#hotBrand > h2 > span {
+        font-size: 11rem;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    html {
+        font-size: 13px;
+    }
+    
+    /*header 시작*/
+    header h1 {
+        width: 2%;
+    }
+
+    header nav > ul ul {
+        top: 3.6rem;
+    }
+    
+    /*div#hotBrand 시작*/
+    div#hotBrand > h2 > span {
+        font-size: 11rem;
+    }
+
+    div#hotBrand div#wholeWrap div figure {
+        height: 17vw;
+    }
+
+    div#hotBrand div#wholeWrap div figure .hovereffect {
+        width: 55%;
+    }
+}
+
+@media only screen and (min-width: 1301px) {
+    div#hotBrand > h2 > span {
+        font-size: 12rem;
+    }
+}
+
+@media only screen and (min-width: 1401px) {
+    html {
+        font-size: 14px;
+    }
+
+    header nav {
+        width: 60%;
+    }
+
+    div#hotBrand > h2 > span {
+        font-size: 12rem;
+    }
+}
+
+@media only screen and (min-width: 1501px) {
+
+    /*div#gnb 시작*/
+    div#gnb{
+        top: 4vw;    
+    }
+    
+    /*div.container 시작*/
+    div.container {
+        height: 50vw;
+    }
+
+    div#hotBrand > h2 > span {
+        font-size: 13rem;
+    }
+}
+
+@media only screen and (min-width: 1601px) {
+    html {
+        font-size: 15px;
+    }
+
+    div#hotBrand > h2 > span {
+        font-size: 13rem;
+    }
+}
+
+@media only screen and (min-width: 1701px) {
+    div#hotBrand > h2 > span {
+        font-size: 14rem;
+    }
+
+    div#hotBrand > h2 > span#brand > span {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    div#hotBrand > h2 > span {
+        font-size: 15rem;
+    }
+}

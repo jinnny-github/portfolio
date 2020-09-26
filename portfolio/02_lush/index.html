@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUSH</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/style-max480.css">
+  <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+
+  <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+  <script src="js/jquery.flexslider.js"></script>
+  <script src="js/productClick.js"></script>
+  <script>
+    $(window).load(function() {
+      $('.flexslider').flexslider({
+        animation: "slide"
+      });
+    });
+
+  </script>
+</head>
+
+<body>
+  <!--header 시작-->
+  <!--header>h1(>a[index.html])+div#gnb(>ul>li*4>a[#none])+nav(>ul>li*4>a[#none])-->
+  <header>
+    <h1><a href="index.html"><img src="img/logo.png"></a></h1>
+    <div id="navWrap">
+      <div id="gnb">
+        <ul>
+          <li><a href="#none">LOGIN</a></li>
+          <li><a href="#none">JOIN</a></li>
+          <li><a href="#none">ORDER</a></li>
+          <li><a href="#none"><img src="img/shopping-cart.png"></a></li>
+        </ul>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#none">PRODUCT</a></li>
+          <li><a href="#none">EVENT</a></li>
+          <li><a href="#none">BRAND</a></li>
+          <li><a href="#none">SPA</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+  <!--section 시작-->
+  <section>
+    <!--ul>li*3>img[src=img/banner$.png][alt=banner$]-->
+    <div class="flexslider">
+      <ul class="slides">
+        <li>
+          <img src="img/banner1.png" />
+        </li>
+        <li>
+          <img src="img/banner2.png" />
+        </li>
+        <li>
+          <img src="img/banner3.png" />
+        </li>
+      </ul>
+    </div>
+    <div id="text">
+      <h2>
+        <span>E N J O Y</span>
+        <span>Y O U R</span>
+        <span>L I F E</span>
+      </h2>
+    </div>
+
+  </section>
+  <!--div#wrap>div#campaign(>div#imgWrap+dl(>dt+dd(>span)))+div#scout(>div#gif+div(>img+p>span))-->
+  <div id="wrap">
+    <div id="campaign">
+      <div class="imgWrap">
+        <img src="img/campaign.jpg" alt="Lush Campaign">
+      </div>
+      <dl>
+        <dt>
+            지금 이 시간에도 멈추지 않고<br>진행되고 있는<br>
+            캠페인 소식을 여러분께 전합니다!
+        </dt>
+        <dd>
+          러쉬는 <span>동물 실험 반대</span>,<span>환경보호</span>,<span>공정 거래</span> 등 우리가 믿고 있는 이념과 철학이 담긴 다양한 캠페인을 시도하고 있습니다.
+          <div id="more">
+            <a href="#none">캠페인 소식 자세히 보기</a>
+            <img src="img/next.png" alt="화살표">
+          </div>
+        </dd>
+      </dl>
+    </div>
+    <div id="scout">
+      <div id="gif">
+        <img src="img/girl.png" alt="girl">
+      </div>
+      <div>
+        <p><span></span></p>
+      </div>
+    </div>
+  </div>
+
+  <div id="videoWrap">
+    <div id="hWrap">
+      <h5>HOW TO USE mask of magnaminty</h5>
+    </div>
+    <video src="video/HowToUse.mp4" controls></video>
+  </div>
+
+  <div id="skinCare">
+    <h5>SKIN CARE</h5>
+    <!--div#wholeWrap>div#left(>figure(>img+figcaption>span)+div.imgWrap>img)+div#right>figure>figcaption+img+figcaption-->
+    <div id="wholeWrap">
+      <div id="left">
+        <div id="topWrap">
+          <figure>
+            <img src="img/skincare1.jpg" alt="">
+            <figcaption>
+              <span>Product name</span> blablablabla
+            </figcaption>
+          </figure>
+          <div class="imgWrap">
+            <img src="img/skincare2.png" alt="">
+          </div>
+
+        </div>
+        <div id="bottomWrap">
+          <div>
+            <img src="img/skincare4.png" alt="">
+            <span>
+                            Find out More
+                        </span>
+          </div>
+          <img src="img/skincare5.jpg" alt="">
+        </div>
+      </div>
+      <div id="right">
+        <figure>
+          <figcaption>
+            <span>Product name</span> Blablablablabla
+          </figcaption>
+          <img src="img/skincare3.jpg" alt="">
+          <figcaption>
+            <span>Product name</span> Blablablablabla
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+
+  <div id="adBanner">
+    <!--ul>li*3>img[src=img/adBanner$.jpg][alt=adBanner$]+p(>span)-->
+    <ul>
+      <li>
+        <img src="img/adBanner1.jpg" alt="adBanner1">
+        <p><span></span></p>
+      </li>
+      <!--<li>
+                <img src="img/adBanner2.jpg" alt="adBanner2">
+                <p><span></span></p>
+            </li>
+            <li>
+                <img src="img/adBanner3.jpg" alt="adBanner3">
+                <p><span></span></p>
+            </li>-->
+    </ul>
+    <p>
+      <span>Bath Bombs</span> Fizz away your cares<br> with your own handmade bath art
+    </p>
+  </div>
+
+  <!--div#gift>div.title+div(>div#textWrap(>div(img+span*2)+div(>p))+div.imgWrap(>img#small+p(>span)+img#large))-->
+  <div id="gift">
+    <div class="wrap80">
+      <div class="title">
+        <h4>GIFT</h4>
+        <span>Of this Month</span>
+      </div>
+      <div id="boxWrap">
+        <div id="textWrap">
+          <div id="setName">
+            <img src="img/dirty.png" alt="dirty">
+            <span>GIFT &nbsp; &nbsp; &nbsp; &nbsp;&#92;57,000</span>
+            <span>열정이 넘친다면 이 선물꾸러미는 취향저격! </span>
+          </div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic sit maxime soluta, optio, enim dolor repellendus
+            </p>
+          </div>
+        </div>
+        <div class="imgWrap">
+          <img src="img/gift01.jpg" alt="" id="small">
+          <p>
+            <span>Do the Dirty!</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+          <img src="img/gift02.jpg" alt="" id="large">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!--div#MDsPick>div.title+div#products>a[#none](>img)+ul(>li*4>img)+a[#none](>img)-->
+  <div id="MDsPick">
+    <div class="wrap80">
+      <div class="title">
+        <h4>MD's PICK</h4>
+      </div>
+      <div id="products">
+        <img id="leftBtn" src="img/arrow_left.png" alt="왼쪽화살표">
+        <img id="rightBtn" src="img/arrow_right.png" alt="오른쪽화살표">
+        <div class="ulWrap">
+          <ul>
+            <li><img src="img/product1.png" alt="제품1"></li>
+            <li><img src="img/product2.png" alt="제품2"></li>
+            <li><img src="img/product3.png" alt="제품3"></li>
+            <li><img src="img/product4.png" alt="제품4"></li>
+            <li><img src="img/product1.png" alt="제품1"></li>
+            <li><img src="img/product1.png" alt="제품1"></li>
+            <li><img src="img/product1.png" alt="제품1"></li>
+            <li><img src="img/product1.png" alt="제품1"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!--article>h3+div#ulWrap(>ul>li(>img+dl(>dt+dd))*3)-->
+  <article>
+    <h3>CUSTOMER SERVICE</h3>
+    <div class="ulWrap">
+      <ul>
+        <li>
+          <img src="img/newspaper.png" alt="newspaper">
+          <dl>
+            <dt>NEWS</dt>
+            <dd>
+              <ul>
+                <li>공지사항1</li>
+                <li>공지사항2</li>
+                <li>공지사항3</li>
+              </ul>
+            </dd>
+          </dl>
+        </li>
+        <li>
+          <img src="img/team.png" alt="team">
+          <dl>
+            <dt>MEMBERSHIP</dt>
+            <dd>건강하고 가치 있는 스카우트 혜택 확인하러 가보실래요?</dd>
+          </dl>
+        </li>
+        <li>
+          <img src="img/call.png" alt="call">
+          <dl>
+            <dt>CS CENTER</dt>
+            <dd>전화번호 팩스번호 요일 시간 어쩌구 저쩌구</dd>
+          </dl>
+        </li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <h2>로고</h2>
+    <div id="rightWrap">
+      <ul>
+        <li><a href="#none">회사소개</a></li>
+        <li><a href="#none">개인정보처리방침</a></li>
+        <li><a href="#none">이용약관</a></li>
+        <li><a href="#none">이메일무단수집거부</a></li>
+        <li><a href="#none">판매약관</a></li>
+        <li><a href="#none">고객센터</a></li>
+      </ul>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis recusandae, fugiat laborum rem ea dignissimos quia doloribus sit eveniet quod, minima. Natus in doloribus fugiat maxime cum repellendus, beatae eaque!
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>

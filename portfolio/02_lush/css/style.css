@@ -1,0 +1,652 @@
+@import url("reset.css");
+@import url("common.css");
+@import url("slider.css");
+
+html {
+  font-size: 16px;
+}
+
+/*header 시작*/
+
+header {
+  width: 96%;
+  padding: 2%;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 99;
+}
+
+header h1 {
+  width: 20%;
+  float: left;
+}
+
+header h1 img {
+  width: 100%;
+}
+
+header div#navWrap {
+  float: right;
+  width: 75%;
+}
+
+header div#navWrap div#gnb {
+  overflow: hidden;
+}
+
+header div#navWrap div#gnb ul {
+  float: right;
+}
+
+header div#navWrap div#gnb ul li {
+  float: left;
+}
+
+header div#navWrap div#gnb ul li a {
+  display: block;
+  padding: 0 20px;
+  color: white;
+  font-size: 0.9rem;
+}
+
+header div#navWrap div#gnb ul li:last-child a {
+  padding-right: 5px;
+}
+
+header div#navWrap div#gnb ul li a img {
+  width: 20px;
+}
+
+header div#navWrap nav {
+  float: right;
+}
+
+header div#navWrap nav ul {
+  overflow: hidden;
+  padding-top: 10px;
+}
+
+header div#navWrap nav ul li {
+  float: left;
+}
+
+header div#navWrap nav ul li a {
+  display: block;
+  padding: 0 50px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+header div#navWrap nav ul li:last-child a {
+  padding-right: 5px;
+}
+
+/*section 시작*/
+
+section {
+  overflow: hidden;
+}
+
+section ul li img {
+  width: 100%;
+}
+
+section div#text {
+  width: 45%;
+  height: 45vw;
+  border: 2px solid white;
+  position: absolute;
+  left: 27%;
+  top: 10vw;
+}
+
+section div#text h2 span {
+  display: block;
+  text-align: center;
+  font-size: 4rem;
+  margin: 16% auto;
+  color: white;
+}
+
+/*div#wrap 시작*/
+
+div#wrap {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+div#wrap > div {
+  flex: 1;
+  /*border: 1px solid black;*/
+  height: 30vw;
+}
+
+div#wrap div#campaign {
+  flex-grow: 1.3;
+}
+
+div#wrap div#campaign div.imgWrap,
+div#wrap div#campaign dl {
+  width: 48%;
+  height: 50%;
+  margin: 1%;
+  padding: 1%;
+  /*border: 1px solid gray;*/
+  box-sizing: border-box;
+  float: left;
+}
+
+div#wrap div#campaign div.imgWrap img {
+  width: 100%;
+}
+
+div#wrap div#campaign dl {
+  margin-top: 7%;
+}
+
+div#wrap div#campaign dl dt {
+  font-weight: 800;
+  font-size: 1.5rem;
+  padding-bottom: 5%;
+}
+
+div#wrap div#campaign dl dd {
+  color: dimgray;
+  font-size: 1rem;
+}
+
+div#wrap div#campaign dl dd span:first-child {
+  color: orange;
+}
+
+div#wrap div#campaign dl dd span:nth-child(2) {
+  color: green;
+}
+
+div#wrap div#campaign dl dd span:nth-child(3) {
+  color: darkgreen;
+}
+
+div#wrap div#campaign dl dd div#more {
+  padding-top: 40px;
+}
+
+div#wrap div#campaign dl dd div#more a {
+  color: black;
+  font-size: 1.3rem;
+  padding: 3px 5px;
+  background-color: rgba(146, 200, 83, .7);
+}
+
+div#wrap div#campaign dl dd div#more img {
+  width: 15px;
+}
+
+div#wrap div#scout {
+  position: relative;
+}
+
+div#wrap div#scout div#gif {
+  width: 50%;
+  position: absolute;
+  left: 10%;
+  ;
+  bottom: 0;
+}
+
+div#wrap div#scout div#gif img {
+  width: 100%;
+}
+
+div#wrap div#scout div:last-child {
+  width: 50%;
+  height: 20vw;
+  background-color: #eee6c2;
+  margin: 50px 20px 20px 20px;
+  float: right;
+}
+
+div#hWrap {
+  padding-bottom: 1vw;
+}
+
+div#videoWrap h5 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  width: 40%;
+  display: inline;
+}
+
+div#videoWrap h5:before {
+  content: "";
+  display: inline-block;
+  box-sizing: border-box;
+  border-top: 1px solid gray;
+  width: 5%;
+  margin-right: 2%;
+  margin-bottom: 5px;
+}
+
+div#videoWrap h5:after {
+  content: "";
+  display: inline-block;
+  box-sizing: border-box;
+  border-top: 1px solid gray;
+  width: 67.9%;
+  margin-left: 2%;
+  margin-bottom: 5px;
+}
+
+div#videoWrap video {
+  width: 100%;
+  background-color: gray;
+}
+
+div#skinCare {
+  width: 70%;
+  margin: 5% auto;
+  overflow: hidden;
+}
+
+div#skinCare h5 {
+  width: 15%;
+  text-align: center;
+  margin: 5% auto;
+  padding-bottom: 1%;
+  border-bottom: 2px solid darkgreen;
+  font-size: 1.5rem;
+}
+
+div#skinCare div#wholeWrap{
+  overflow: hidden;
+}
+
+div#skinCare div figure figcaption {
+  padding: 5%;
+}
+
+div#skinCare div figure figcaption span {
+  display: block;
+  font-weight: 800;
+}
+
+div#skinCare div#left {
+  width: 70%;
+  float: left;
+  overflow: hidden;
+}
+
+div#skinCare div#left div#topWrap {
+  width: 100%;
+  overflow: hidden;
+}
+
+div#skinCare div#left div#topWrap figure {
+  width: 37.5%;
+  float: left;
+}
+
+div#skinCare div#left div#topWrap figure img {
+  width: 100%;
+  height: 13.3vw;
+}
+
+div#skinCare div#left div#topWrap figure figcaption {
+  height: 7vw;
+  border: 1px solid gray;
+  margin-top: 5%;
+}
+
+div#skinCare div#left div#topWrap div.imgWrap {
+  width: 60%;
+  float: right;
+  border: 1px solid olive;
+  box-sizing: border-box;
+}
+
+div#skinCare div#left div#topWrap div.imgWrap img {
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+
+div#skinCare div#left div#bottomWrap {
+  width: 100%;
+}
+
+div#skinCare div#left div#bottomWrap div {
+  width: 62%;
+  padding-bottom: 0;
+  float: left;
+  margin: 3% 0;
+}
+
+div#skinCare div#left div#bottomWrap div img {
+  width: 100%;
+  height: 18vw;
+}
+
+div#skinCare div#left div#bottomWrap div span {
+  background-color: darkgreen;
+  float: right;
+  width: 40%;
+  text-align: center;
+  display: block;
+  padding: 2%;
+  margin-top: 6%;
+  color: white;
+}
+
+div#skinCare div#left div#bottomWrap > img {
+  width: 35%;
+  height: 22.5vw;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+div#skinCare div#right {
+  width: 30%;
+  float: right;
+}
+
+div#skinCare div#right figure {
+  padding-left: 5%;
+}
+
+div#skinCare div#right figure figcaption {
+  height: 5.8vw;
+  border: 1px solid gray;
+}
+
+div#skinCare div#right figure img {
+  width: 100%;
+  height: 30vw;
+  margin: 5% 0;
+}
+
+div#adBanner {
+  position: relative;
+}
+
+div#adBanner ul li img {
+  width: 100%;
+  margin-top: 5%;
+}
+
+div#adBanner p {
+  color: white;
+  font-size: 2.5rem;
+  text-align: right;
+  font-weight: 800;
+  position: absolute;
+  top: 20vw;
+  right: 5%;
+}
+
+div#adBanner p span {
+  font-size: 4.5rem;
+  display: block;
+  padding-bottom: 10px;
+}
+
+div.title {
+  width: 15%;
+  height: 8vw;
+  margin-right: 3%;
+  border: 2px solid #ccc;
+  padding: 2.5%;
+  float: left;
+}
+
+div.title h4 {
+  border-bottom: 2px solid darkgreen;
+  padding-bottom: 7%;
+}
+
+div.wrap80 {
+  width: 80%;
+  margin: 30px auto;
+  padding: 100px 0 30px 0;
+  overflow: hidden;
+}
+
+div#gift {
+  background: url(../img/bgImage2.png) no-repeat right top, url(../img/bgImage1.png) no-repeat left bottom;
+  background-size: 10%;
+}
+
+div#gift div.title span {
+  display: block;
+  padding-top: 7%;
+  color: #888;
+  font-size: 14px;
+}
+
+div#gift div#boxWrap {
+  width: 75%;
+  float: right;
+}
+
+div#gift div#boxWrap div#textWrap {
+  width: 38%;
+  float: left;
+}
+
+div#gift div#boxWrap div#textWrap div#setName {
+  height: 11vw;
+  background-color: darkgreen;
+  padding: 15% 0;
+}
+
+div#gift div#boxWrap div#textWrap div#setName img {
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+
+div#gift div#boxWrap div#textWrap div#setName span {
+  text-align: center;
+  display: block;
+  color: white;
+  font-size: 1.3rem;
+}
+
+div#gift div#boxWrap div#textWrap div#setName span + span {
+  font-size: 1em;
+  padding-top: 10%;
+}
+
+div#gift div#boxWrap div#textWrap div#setName + div {
+  margin-top: 5%;
+  height: 20vw;
+  border: 2px solid #ccc;
+}
+
+div#gift div#boxWrap div#textWrap div#setName + div > p {
+  font-size: 1.1rem;
+  padding: 3%;
+}
+
+div#gift div#boxWrap div.imgWrap {
+  width: 55%;
+  float: left;
+  padding-left: 3%;
+}
+
+div#gift div#boxWrap div.imgWrap img {
+  width: 100%;
+  height: 100%;
+}
+
+div#gift div#boxWrap div.imgWrap img#small {
+  width: 53%;
+  height: 13vw;
+  float: left;
+}
+
+div#gift div#boxWrap div.imgWrap p {
+  width: 44%;
+  height: 13vw;
+  font-size: 0.8rem;
+  float: left;
+  margin-left: 3%;
+}
+
+div#gift div#boxWrap div.imgWrap p span {
+  display: block;
+  font-weight: 700;
+}
+
+div#gift div#boxWrap div.imgWrap img#large {
+  margin-top: 3%;
+}
+
+div#MDsPick div.wrap80 {
+  padding: 30px 0;
+  margin-bottom: 0;
+}
+
+div#MDsPick img#leftBtn {
+  width: 5%;
+  position: absolute;
+  top: 30%;
+  left: -1%;
+}
+
+div#MDsPick img#rightBtn {
+  width: 5%;
+  position: absolute;
+  top: 30%;
+  right: -1%;
+}
+
+div#MDsPick div#products {
+  width: 67%;
+  float: right;
+  overflow: hidden;
+  height: 17vw;
+  position: relative;
+  padding: 0 3%;
+}
+
+div#MDsPick div#products div.ulWrap {
+  width: 100%;
+  overflow: hidden;
+}
+
+div#MDsPick div#products ul {
+  width: 200%;
+  height: 100%;
+}
+
+div#MDsPick div#products ul li {
+  width: calc(68%/8);
+  float: left;
+  height: 13vw;
+  border-radius: 50%;
+  margin: 2%;
+}
+
+div#MDsPick div#products ul li img {
+  width: 100%;
+  transition: all .5s;
+}
+
+div#MDsPick div#products ul li:hover img {
+  transform: scale(1.2);
+  opacity: .6;
+}
+
+
+/*article 시작*/
+
+article {
+  padding: 5vw 0;
+  width: 90%;
+  margin: auto;
+}
+
+article h3 {
+  padding-bottom: 1%;
+}
+
+article div.ulWrap {
+  border-top: 1px solid gray;
+  padding-top: 2%;
+}
+
+article div.ulWrap > ul {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+article div.ulWrap ul > li {
+  flex: 1;
+  padding: 1%;
+}
+
+article div.ulWrap ul > li img {
+  width: 15%;
+  float: left;
+  margin-right: 5%;
+}
+
+article div.ulWrap ul > li dl {
+  width: 75%;
+  float: right;
+}
+
+article div.ulWrap ul > li dl dt {
+  font-weight: 600;
+  font-size: 1.5em;
+  margin-bottom: 5%;
+}
+
+footer {
+  background-color: black;
+  padding: 2%;
+  overflow: hidden;
+}
+
+footer h2 {
+  color: white;
+  width: 10%;
+  font-size: 50px;
+  float: left;
+  margin-right: 2%;
+}
+
+footer div#rightWrap {
+  width: 70%;
+  float: left;
+}
+
+footer div#rightWrap ul {
+  margin-bottom: 1%;
+}
+
+footer div#rightWrap ul li {
+  display: inline-block;
+}
+
+footer div#rightWrap ul li a {
+  color: white;
+  font-size: 15px;
+}
+
+footer div#rightWrap ul li:nth-child(2) a {
+  font-weight: 600;
+}
+
+footer div#rightWrap p {
+  color: #aaa;
+}

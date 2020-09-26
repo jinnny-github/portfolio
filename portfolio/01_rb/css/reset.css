@@ -1,0 +1,8 @@
+/*초기화*/
+html, body, div, header, nav, section, article, aside, footer, 
+form, input, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, 
+p, a, img, span, hr, figure, figcaption{
+    margin: 0;
+    padding: 0;
+}
+

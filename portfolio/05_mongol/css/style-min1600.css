@@ -1,0 +1,13 @@
+@media only screen and (min-width: 1600px) {
+  html {
+    font-size: 16px;
+  }
+
+  div#adBanner {
+    height: 30vw;
+  }
+
+  div#adBanner p {
+    padding-top: 25%;
+  }
+}
