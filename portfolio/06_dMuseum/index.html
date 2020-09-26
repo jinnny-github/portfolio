@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>구슬모아당구장</title>
+
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/style-min1100.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300|Anton|Oswald|Russo+One" rel="stylesheet">
+
+    <!--[if IE]>
+        <script type="text/javascript">
+             var console = { log: function() {} };
+        </script>
+    <![endif]-->
+
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/fullpage.js"></script>
+    <script type="text/javascript">
+        //using document ready...
+        $(document).ready(function() {
+
+            //initialising fullpage.js in the jQuery way
+            $('#fullpage').fullpage({
+                navigation: true,
+                slidesNavigation: true,
+            });
+
+            // calling fullpage.js methods using jQuery
+            $('#moveSectionUp').click(function(e) {
+                e.preventDefault();
+                $.fn.fullpage.moveSectionUp();
+            });
+
+            $('#moveSectionDown').click(function(e) {
+                e.preventDefault();
+                $.fn.fullpage.moveSectionDown();
+            });
+        });
+
+    </script>
+    <script src="js/click.js"></script>
+    <script src="js/close.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span id="star">★</span>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <div>
+                        <a href="#none">VISIT</a>
+                        <a href="#none">VISIT</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="#none">EXHIBITION</a>
+                        <a href="#none">EXHIBITION</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="#none">LIBRARY</a>
+                        <a href="#none">LIBRARY</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <h1>
+            <a href="index.html">
+                <img src="img/logo.png" alt="logo">
+            </a>
+        </h1>
+    </header>
+
+    <div id="fullpage">
+        <section class="odd active section">
+            <div class="wrap70">
+                <div class="left">
+                    <span class="first">PROJECT</span>
+                    <span class="second">SPACE</span>
+                    <div class="imgWrap">
+                        <img src="img/banner01.jpg" alt="banner01">
+                        <a class="actionBtn3">
+                            <span class="back">MORE<img src="img/arrow-gray.png" alt="arrow"></span>
+                            <span class="front">MORE<img src="img/arrow1.png" alt="arrow1"></span>
+                        </a>
+
+
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="imgWrap">
+                        <img src="img/1.png" alt="1">
+                    </div>
+                    <div class="textWrap">
+                        <div class="rot">
+                            <span class="title">INTRO</span>
+                            <span class="num">01</span>
+                        </div>
+                        <span>About</span>
+                        <p>
+                            <span>디뮤지엄의 비밀스러운 프로젝트 스페이스</span> 디프로젝트 스페이스 구슬모아당구장은 2012년 한남동에 개관하여 다양한 분야에서 활동하는 국내 젊은 크리에이터들의 실험적인 프로젝트를 소개하며 디뮤지엄과 함께 새로운 지역 문화를 형성해 나가고자 노력하고 있습니다
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="subPage">
+                <div id="white">
+                    <figure>
+                        <img src="img/sub01.jpg" alt="sub01">
+                        <figcaption>
+                            <h3>디뮤지엄과 더욱 가까워진 구슬모아당구장
+                            </h3>
+                            <p>디프로젝트 스페이스 구슬모아당구장은 한남동 독서당로의 외진 골목, 한동안 사람의 발길이 닿지 않아 방치되어 있던 당구장의 이름을 그대로 살려 국내 작가를 지원하는 전시 공간으로 시작하였습니다. 2017년부터 디뮤지엄에서 3분거리로 확장 이전하여 전시는 물론 공연과 다채로운 프로그램을 진행하며 흥미로운 활동을 시도하고 있습니다. 더욱 가까워진 거리만큼 디뮤지엄과 함께 누구나 쉽게 즐기고 들를 수 있는 문화예술공간으로서 문턱을 낮추고 색다른 예술 경험을 제공하며, 작가와 관객, 그리고 지역주민이 함께 소통하며 성장해나갈 수 있는 발판을 마련합니다.</p>
+                        </figcaption>
+                    </figure>
+                    <button>X Close</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="even section">
+            <div class="wrap70">
+                <div class="left">
+                    <span class="first">CREATIVE</span>
+                    <span class="second">SPACE</span>
+                    <div class="imgWrap">
+                        <img src="img/banner02.jpg" alt="banner02">
+                        <a class="actionBtn3">
+                            <span class="back">ABOUT<img src="img/arrow-gray.png" alt="arrow"></span>
+                            <span class="front">ABOUT<img src="img/arrow2.png" alt="arrow2"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="imgWrap">
+                        <img src="img/2.png" alt="2">
+                    </div>
+                    <div class="textWrap">
+                        <div class="rot">
+                            <span class="title">ABOUT RENTAL</span>
+                            <span class="num">02</span>
+                        </div>
+                        <span>대관 안내</span>
+                        <p>디프로젝트 스페이스 구슬모아당구장에서 다채로운 프로그램과 행사를 진행해보세요. 전시는 물론 공연, 워크숍, 파티, 광고, 영화촬영 등 다양한 공간 연출이 가능합니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="subPage">
+                <div id="white">
+                    <figure>
+                        <img src="img/sub02.jpg" alt="sub02">
+                        <figcaption>
+                            <h3>전시는 물론 공연, 워크숍, 파티까지!
+                            </h3>
+                            <dl>
+                                <dt>- 대관 문의</dt>
+                                <dd>Tel 02-3785-0667<br>
+                                    E-mail dprojectspace@gmail.com</dd>
+                            </dl>
+                            <dl>
+                                <dt>- 상세 정보</dt>
+                                <dd>
+                                    구분 전시장/복합문화공간<br>
+                                    면적 324.34㎡<br>
+                                    제공 사항 냉, 난방 시설 완비, 바(BAR) 사용시 주류 및 음료 할인 판매 가능
+                                    공식 대관료
+                                    4시간(기본) : 2,000,000
+                                    8시간(전일) : 4,000,000<br>
+                                    * 시공/설치 기간에 따라 협의 후 책정<br>
+                                    * 바(BAR) 사용 시 요금 별도
+                                </dd>
+                            </dl>
+                        </figcaption>
+                    </figure>
+                    <button>X Close</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="odd section">
+            <div class="wrap70">
+                <div class="left">
+                    <span class="first">D STORY</span>
+                    <span class="second"></span>
+                    <div class="imgWrap">
+                        <img src="img/banner03.jpg" alt="banner03">
+                        <a class="actionBtn3">
+                            <span class="back">ABOUT<img src="img/arrow-gray.png" alt="arrow"></span>
+                            <span class="front">ABOUT<img src="img/arrow3.png" alt="arrow3"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="imgWrap">
+                        <img src="img/3.png" alt="3">
+                    </div>
+                    <div class="textWrap">
+                        <div class="rot">
+                            <span class="title">D STORY</span>
+                            <span class="num">03</span>
+                        </div>
+                        <span>#9 Coco's Favourites</span>
+                        <p>이번 디스토리에서는 코코가 작품으로서의 작업이 아닌 습관과도 같았던 핸드라이팅을 아트워크로 여길 수 있도록 새로운 시각을 선사하고, 더불어 작년, 코코와 구찌와의 콜라보레션이 성사될 수 있도록 큰 역할을 한 장본인인 구찌의 세 번째 크리에이티브 디렉터 알레산드로 미켈레(Alessandro Michele)와의 인연을 들려드리고자 합니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="subPage">
+                <div id="white">
+                    <figure>
+                        <img src="img/sub03.jpg" alt="sub03">
+                        <figcaption>
+                            <h3>#9 Coco's Favourites - People (1) Alessandro Michele
+                            </h3>
+                            <p>지난 디스토리에서는 코코의 핸드라이팅 작품들을 중심으로 코코 특유의 삶과 죽음, 현실과 상상 등 작가가 자기 작업을 구성하는 생각과 기억, 감정들을 솔직하고 덤덤하게 써내려 간 이야기들이 어떻게 탄생하였는 지 들려드렸습니다. 이번 디스토리에서는 코코가 작품으로서의 작업이 아닌 습관과도 같았던 핸드라이팅을 아트워크로 여길 수 있도록 새로운 시각을 선사하고, 더불어 작년, 코코와 구찌와의 콜라보레션이 성사될 수 있도록 큰 역할을 한 장본인인 구찌의 세 번째 크리에이티브 디렉터 알레산드로 미켈레(Alessandro Michele)와의 인연을 들려드리고자 합니다.
+
+                                알레산드로 미켈레는 1972년 이탈리아에서 태어난 패션 디자이너로, 2015년부터 구찌의 크리에이티브 디렉터로 활동하면서 구찌라는 브랜드 이미지를 혁신적으로 탈바꿈시키고, 여전히 매 시즌 발표하는 컬렉션마다 화제의 중심에 서서 사람들의 이목을 집중시키고 있습니다. </p>
+                        </figcaption>
+                    </figure>
+                    <button>X Close</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="even section">
+            <div class="wrap70">
+                <div class="left">
+                    <span class="first">NEWS &amp;</span>
+                    <span class="second">NOTICE</span>
+                    <div class="imgWrap">
+                        <img src="img/banner04.jpg" alt="banner04">
+                        <a class="actionBtn3">
+                            <span class="back">ABOUT<img src="img/arrow-gray.png" alt="arrow"></span>
+                            <span class="front">ABOUT<img src="img/arrow4.png" alt="arrow4"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="imgWrap">
+                        <img src="img/4.png" alt="4">
+                    </div>
+                    <div class="textWrap">
+                        <div class="rot">
+                            <span class="title">NEWS</span>
+                            <span class="num">04</span>
+                        </div>
+                        <span>CALENDAR</span>
+                        <p>미술관에서 일어나는 다채로운 전시, 행사 및 프로그램 스케줄 등 다양한 프로그램 일정을 한 눈에 확인하세요!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="subPage">
+                <div id="white">
+                    <figure>
+                        <img src="img/sub04.jpg" alt="sub04">
+                        <figcaption>
+                            <h3>관람 시간 및 요금 확인하고, 온라인 회원 가입하자!
+                            </h3>
+                            <p>
+                                <span>관람 시간</span>
+                                화-일요일 10:00AM – 6:00PM / 목, 토요일 (야간 개관)<br>
+                                10:00AM – 8:00PM
+                                티켓 발권은 전시 종료 30분 전에 마감됩니다.<br>
+                                (단, 미술관 상황에 따라 발권이 조기 마감될 수 있습니다.)<br>
+                                매주 월요일, 설ㆍ추석연휴는 휴관합니다.<br>
+                                12/24(월) 정상 운영
+                            </p>
+                        </figcaption>
+                    </figure>
+                    <button>X Close</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>

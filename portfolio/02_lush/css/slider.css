@@ -1,3 +1,7 @@
+.flexslider {
+    overflow: hidden;
+}
+
 .flex-control-nav {
     bottom: 15px !important;
 }

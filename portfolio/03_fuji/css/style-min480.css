@@ -394,9 +394,9 @@
         width: 100%;
     }
 
-    .clearfix {
+    /*.clearfix {
         * + height: 1%;
-    }
+    }*/
 
     .container2 {
         margin: 5vw auto;
@@ -446,8 +446,6 @@
         overflow: hidden;
     }
 
-
-
     footer div#inner_foot {
         display: block;
         border-top: 1px solid #ccc;
@@ -496,11 +494,11 @@
         display: block;
     }
 
-    footer div#inner_foot div + div span#span1 {
+    footer div#inner_foot div + div span.span1 {
         font-size: 0.8em;
     }
 
-    footer div#inner_foot div + div span#span2 {
+    footer div#inner_foot div + div span.span2 {
         font-size: 2em;
     }
 

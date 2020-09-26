@@ -1,0 +1,37 @@
+@media only screen and (min-width: 1200px) {
+  /*header*/
+  header {
+    padding: 0 10%;
+  }
+
+  header h1 {
+    float: left;
+    width: 10%;
+    margin: 18px 0 0;
+  }
+
+  header nav {
+    float: left;
+    width: 84%;
+  }
+
+  /*article*/
+  article div.wrap figure:last-child {
+    display: block;
+  }
+
+  /*div#thorWrap*/
+  div#thorWrap {
+    margin: 5vw 0;
+  }
+
+  div#light {
+    height: 50vw;
+    top: 0;
+  }
+
+  div#thorWrap div#thor span#roundBox {
+    width: 10%;
+  }
+
+}

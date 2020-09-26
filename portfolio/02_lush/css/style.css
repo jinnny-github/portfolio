@@ -3,7 +3,8 @@
 @import url("slider.css");
 
 html {
-  font-size: 16px;
+  font-size: 10px;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 /*header 시작*/
@@ -19,134 +20,52 @@ header {
 }
 
 header h1 {
-  width: 20%;
-  float: left;
+  width: 30%;
+  margin: auto;
 }
 
 header h1 img {
   width: 100%;
 }
 
+
 header div#navWrap {
-  float: right;
-  width: 75%;
+  display: none;
 }
 
-header div#navWrap div#gnb {
-  overflow: hidden;
-}
-
-header div#navWrap div#gnb ul {
-  float: right;
-}
-
-header div#navWrap div#gnb ul li {
-  float: left;
-}
-
-header div#navWrap div#gnb ul li a {
-  display: block;
-  padding: 0 20px;
-  color: white;
-  font-size: 0.9rem;
-}
-
-header div#navWrap div#gnb ul li:last-child a {
-  padding-right: 5px;
-}
-
-header div#navWrap div#gnb ul li a img {
-  width: 20px;
-}
-
-header div#navWrap nav {
-  float: right;
-}
-
-header div#navWrap nav ul {
-  overflow: hidden;
-  padding-top: 10px;
-}
-
-header div#navWrap nav ul li {
-  float: left;
-}
-
-header div#navWrap nav ul li a {
-  display: block;
-  padding: 0 50px;
-  color: white;
-  font-size: 1.1rem;
-  font-weight: 600;
-}
-
-header div#navWrap nav ul li:last-child a {
-  padding-right: 5px;
-}
-
-/*section 시작*/
-
-section {
-  overflow: hidden;
-}
-
-section ul li img {
-  width: 100%;
-}
+/*section*/
 
 section div#text {
-  width: 45%;
-  height: 45vw;
-  border: 2px solid white;
-  position: absolute;
-  left: 27%;
-  top: 10vw;
+  display: none;
 }
 
-section div#text h2 span {
-  display: block;
-  text-align: center;
-  font-size: 4rem;
-  margin: 16% auto;
-  color: white;
-}
-
-/*div#wrap 시작*/
+/*div#wrap*/
 
 div#wrap {
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
+  display: block;
 }
 
 div#wrap > div {
-  flex: 1;
-  /*border: 1px solid black;*/
-  height: 30vw;
+  margin: 10vw;
 }
 
 div#wrap div#campaign {
-  flex-grow: 1.3;
+  overflow: hidden;
 }
 
-div#wrap div#campaign div.imgWrap,
 div#wrap div#campaign dl {
-  width: 48%;
-  height: 50%;
   margin: 1%;
   padding: 1%;
-  /*border: 1px solid gray;*/
   box-sizing: border-box;
   float: left;
 }
 
-div#wrap div#campaign div.imgWrap img {
-  width: 100%;
+div#wrap div#campaign div.imgWrap {
+  display: none;
 }
 
 div#wrap div#campaign dl {
+  width: 100%;
   margin-top: 7%;
 }
 
@@ -190,14 +109,15 @@ div#wrap div#campaign dl dd div#more img {
 
 div#wrap div#scout {
   position: relative;
+  height: 70vw;
+  margin-bottom: 20vw;
 }
 
 div#wrap div#scout div#gif {
-  width: 50%;
+  width: 70%;
+  left: -5%;
+  bottom: -10%;
   position: absolute;
-  left: 10%;
-  ;
-  bottom: 0;
 }
 
 div#wrap div#scout div#gif img {
@@ -205,14 +125,43 @@ div#wrap div#scout div#gif img {
 }
 
 div#wrap div#scout div:last-child {
-  width: 50%;
-  height: 20vw;
+  width: 100%;
+  height: 70vw;
   background-color: #eee6c2;
-  margin: 50px 20px 20px 20px;
+}
+
+div#wrap div#scout div:last-child p {
+  font-size: 1.2rem;
+  padding: 10%;
+  text-align: center;
+}
+
+div#wrap div#scout div:last-child p span {
+  display: block;
+  font-family: 'Ranga', cursive;
+  font-size: 5rem;
+}
+
+div#wrap div#scout div:last-child p span:first-child {
+  line-height: 4rem;
   float: right;
 }
 
-div#hWrap {
+div#wrap div#scout div:last-child p span:nth-child(2) {
+  clear: both;
+  font-size: 10rem;
+  line-height: 9rem;
+}
+
+div#wrap div#scout div:last-child p span:last-child {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+/*div#videoWrap*/
+
+div#videoWrap div#hWrap {
   padding-bottom: 1vw;
 }
 
@@ -238,7 +187,7 @@ div#videoWrap h5:after {
   display: inline-block;
   box-sizing: border-box;
   border-top: 1px solid gray;
-  width: 67.9%;
+  width: 33%;
   margin-left: 2%;
   margin-bottom: 5px;
 }
@@ -248,14 +197,16 @@ div#videoWrap video {
   background-color: gray;
 }
 
+/*div#skinCare*/
+
 div#skinCare {
-  width: 70%;
+  width: 80%;
   margin: 5% auto;
   overflow: hidden;
 }
 
 div#skinCare h5 {
-  width: 15%;
+  width: 33%;
   text-align: center;
   margin: 5% auto;
   padding-bottom: 1%;
@@ -263,8 +214,9 @@ div#skinCare h5 {
   font-size: 1.5rem;
 }
 
-div#skinCare div#wholeWrap{
+div#skinCare div#wholeWrap {
   overflow: hidden;
+  height: 90vw;
 }
 
 div#skinCare div figure figcaption {
@@ -277,34 +229,42 @@ div#skinCare div figure figcaption span {
 }
 
 div#skinCare div#left {
-  width: 70%;
-  float: left;
+  float: none;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
 }
 
 div#skinCare div#left div#topWrap {
   width: 100%;
+  height: 50%;
   overflow: hidden;
 }
 
 div#skinCare div#left div#topWrap figure {
-  width: 37.5%;
+  width: calc(40% - 20px);
+  height: 100%;
   float: left;
+  font-size: 0;
+  margin-right: 20px;
 }
 
 div#skinCare div#left div#topWrap figure img {
   width: 100%;
-  height: 13.3vw;
+  height: 55%;
 }
 
 div#skinCare div#left div#topWrap figure figcaption {
-  height: 7vw;
+  height: calc(45% - 20px);
   border: 1px solid gray;
-  margin-top: 5%;
+  box-sizing: border-box;
+  font-size: 1rem;
+  margin-top: 20px;
 }
 
 div#skinCare div#left div#topWrap div.imgWrap {
   width: 60%;
+  height: 100%;
   float: right;
   border: 1px solid olive;
   box-sizing: border-box;
@@ -318,57 +278,45 @@ div#skinCare div#left div#topWrap div.imgWrap img {
 
 div#skinCare div#left div#bottomWrap {
   width: 100%;
+  height: calc(50% - 20px);
+  margin-top: 20px;
 }
 
 div#skinCare div#left div#bottomWrap div {
-  width: 62%;
-  padding-bottom: 0;
+  width: calc(60% - 20px);
+  height: 100%;
   float: left;
-  margin: 3% 0;
+  font-size: 0;
+  margin-right: 20px;
 }
 
 div#skinCare div#left div#bottomWrap div img {
   width: 100%;
-  height: 18vw;
+  height: calc(90% - 20px);
+  margin-bottom: 20px;
 }
 
 div#skinCare div#left div#bottomWrap div span {
   background-color: darkgreen;
   float: right;
   width: 40%;
+  height: 10%;
   text-align: center;
   display: block;
-  padding: 2%;
-  margin-top: 6%;
   color: white;
+  font-size: 1rem;
 }
 
 div#skinCare div#left div#bottomWrap > img {
-  width: 35%;
-  height: 22.5vw;
-  margin-top: 3%;
-  margin-left: 3%;
+  width: 40%;
+  height: 100%;
 }
 
 div#skinCare div#right {
-  width: 30%;
-  float: right;
+  display: none;
 }
 
-div#skinCare div#right figure {
-  padding-left: 5%;
-}
-
-div#skinCare div#right figure figcaption {
-  height: 5.8vw;
-  border: 1px solid gray;
-}
-
-div#skinCare div#right figure img {
-  width: 100%;
-  height: 30vw;
-  margin: 5% 0;
-}
+/*div#adBanner*/
 
 div#adBanner {
   position: relative;
@@ -381,7 +329,7 @@ div#adBanner ul li img {
 
 div#adBanner p {
   color: white;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   text-align: right;
   font-weight: 800;
   position: absolute;
@@ -390,31 +338,31 @@ div#adBanner p {
 }
 
 div#adBanner p span {
-  font-size: 4.5rem;
+  font-size: 2.5rem;
   display: block;
   padding-bottom: 10px;
 }
 
 div.title {
-  width: 15%;
-  height: 8vw;
   margin-right: 3%;
-  border: 2px solid #ccc;
-  padding: 2.5%;
-  float: left;
+  padding: 2.5% 0;
 }
 
 div.title h4 {
   border-bottom: 2px solid darkgreen;
-  padding-bottom: 7%;
+  padding-bottom: 3%;
+  margin-bottom: 20px;
+  font-size: 2rem;
 }
 
 div.wrap80 {
   width: 80%;
-  margin: 30px auto;
-  padding: 100px 0 30px 0;
+  margin: 3vw auto;
+  padding: 10vw 0 15vw 0;
   overflow: hidden;
 }
+
+/*div#gift*/
 
 div#gift {
   background: url(../img/bgImage2.png) no-repeat right top, url(../img/bgImage1.png) no-repeat left bottom;
@@ -422,80 +370,38 @@ div#gift {
 }
 
 div#gift div.title span {
-  display: block;
-  padding-top: 7%;
-  color: #888;
-  font-size: 14px;
+  display: none;
 }
 
 div#gift div#boxWrap {
-  width: 75%;
-  float: right;
+  height: 80vw;
 }
 
 div#gift div#boxWrap div#textWrap {
-  width: 38%;
-  float: left;
-}
-
-div#gift div#boxWrap div#textWrap div#setName {
-  height: 11vw;
-  background-color: darkgreen;
-  padding: 15% 0;
-}
-
-div#gift div#boxWrap div#textWrap div#setName img {
-  width: 80%;
-  margin: auto;
-  display: block;
-}
-
-div#gift div#boxWrap div#textWrap div#setName span {
-  text-align: center;
-  display: block;
-  color: white;
-  font-size: 1.3rem;
-}
-
-div#gift div#boxWrap div#textWrap div#setName span + span {
-  font-size: 1em;
-  padding-top: 10%;
-}
-
-div#gift div#boxWrap div#textWrap div#setName + div {
-  margin-top: 5%;
-  height: 20vw;
-  border: 2px solid #ccc;
-}
-
-div#gift div#boxWrap div#textWrap div#setName + div > p {
-  font-size: 1.1rem;
-  padding: 3%;
+  display: none;
 }
 
 div#gift div#boxWrap div.imgWrap {
-  width: 55%;
-  float: left;
-  padding-left: 3%;
-}
-
-div#gift div#boxWrap div.imgWrap img {
   width: 100%;
   height: 100%;
 }
 
+div#gift div#boxWrap div.imgWrap img {
+  width: 100%;
+}
+
 div#gift div#boxWrap div.imgWrap img#small {
-  width: 53%;
-  height: 13vw;
+  width: 55%;
+  height: 35%;
   float: left;
 }
 
 div#gift div#boxWrap div.imgWrap p {
-  width: 44%;
-  height: 13vw;
+  width: calc(45% - 20px);
+  height: 35%;
   font-size: 0.8rem;
   float: left;
-  margin-left: 3%;
+  margin-left: 20px;
 }
 
 div#gift div#boxWrap div.imgWrap p span {
@@ -504,7 +410,8 @@ div#gift div#boxWrap div.imgWrap p span {
 }
 
 div#gift div#boxWrap div.imgWrap img#large {
-  margin-top: 3%;
+  height: calc(65% - 20px);
+  margin-top: 20px;
 }
 
 div#MDsPick div.wrap80 {
@@ -512,27 +419,25 @@ div#MDsPick div.wrap80 {
   margin-bottom: 0;
 }
 
-div#MDsPick img#leftBtn {
+div#MDsPick img#leftBtn,
+div#MDsPick img#rightBtn {
   width: 5%;
   position: absolute;
-  top: 30%;
+  top: 40%;
+  cursor: pointer;
+}
+
+div#MDsPick img#leftBtn {
   left: -1%;
 }
 
 div#MDsPick img#rightBtn {
-  width: 5%;
-  position: absolute;
-  top: 30%;
   right: -1%;
 }
 
 div#MDsPick div#products {
-  width: 67%;
-  float: right;
   overflow: hidden;
-  height: 17vw;
   position: relative;
-  padding: 0 3%;
 }
 
 div#MDsPick div#products div.ulWrap {
@@ -568,30 +473,26 @@ div#MDsPick div#products ul li:hover img {
 
 article {
   padding: 5vw 0;
-  width: 90%;
+  width: 80%;
   margin: auto;
 }
 
 article h3 {
-  padding-bottom: 1%;
+  border-bottom: 2px solid darkgreen;
+  padding-bottom: 3%;
+  font-size: 2rem;
 }
 
 article div.ulWrap {
-  border-top: 1px solid gray;
-  padding-top: 2%;
+  padding-top: 8%;
 }
 
-article div.ulWrap > ul {
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
+article div.ulWrap > ul > li {
+  margin-bottom: 5%;
 }
 
 article div.ulWrap ul > li {
-  flex: 1;
-  padding: 1%;
+  overflow: hidden;
 }
 
 article div.ulWrap ul > li img {
@@ -619,15 +520,12 @@ footer {
 
 footer h2 {
   color: white;
-  width: 10%;
   font-size: 50px;
-  float: left;
-  margin-right: 2%;
+  text-align: center;
 }
 
 footer div#rightWrap {
-  width: 70%;
-  float: left;
+  margin-top: 5%;
 }
 
 footer div#rightWrap ul {
@@ -636,6 +534,7 @@ footer div#rightWrap ul {
 
 footer div#rightWrap ul li {
   display: inline-block;
+  margin-right: 1%;
 }
 
 footer div#rightWrap ul li a {

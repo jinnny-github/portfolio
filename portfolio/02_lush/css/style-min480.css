@@ -1,0 +1,293 @@
+@media only screen and (min-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  html {
+    font-size: 14px;
+  }
+
+  /*header*/
+  header h1 {
+    width: 20%;
+    margin: auto;
+  }
+
+  header div#navWrap {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+
+  header div#navWrap div#gnb {
+    display: none;
+  }
+
+  header div#navWrap nav ul {
+    overflow: hidden;
+    padding-top: 10px;
+  }
+
+  header div#navWrap nav ul li {
+    float: left;
+  }
+
+  header div#navWrap nav ul li a {
+    display: block;
+    padding: 0 50px;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
+  header div#navWrap nav ul li:last-child a {
+    padding-right: 5px;
+  }
+
+  /*div#wrap*/
+  div#wrap div#scout {
+    height: 43vw;
+    margin-bottom: 3vw;
+    width: 70%;
+  }
+
+  div#wrap div#scout div#gif {
+    width: 50%;
+    left: 10%;
+    bottom: 0;
+  }
+
+  div#wrap div#scout div:last-child {
+    width: 60%;
+    height: 40vw;
+    float: right;
+  }
+
+  div#wrap div#scout div:last-child p {
+    font-size: 1rem;
+  }
+
+  div#wrap div#scout div:last-child p span {
+    font-size: 4rem;
+  }
+
+  div#wrap div#scout div:last-child p span:first-child {
+    line-height: 3rem;
+  }
+
+  div#wrap div#scout div:last-child p span:nth-child(2) {
+    font-size: 6rem;
+    line-height: 7rem;
+  }
+
+  div#wrap div#scout div:last-child p span:last-child {
+    font-size: 1.1rem;
+  }
+
+  /*div#videoWrap*/
+  div#videoWrap {
+    margin-top: 5rem;
+  }
+
+  div#videoWrap h5:after {
+    width: 40%;
+  }
+
+  /*div#skinCare*/
+  div#skinCare {
+    width: 70%;
+  }
+
+  div#skinCare h5 {
+    width: 25%;
+  }
+
+  div#skinCare div#wholeWrap {
+    height: 50vw;
+  }
+
+  div#skinCare div#left {
+    width: 70%;
+    float: left;
+  }
+
+  div#skinCare div#right {
+    display: block;
+    width: calc(30% - 20px);
+    height: 100%;
+    float: right;
+    margin-left: 20px;
+  }
+
+  div#skinCare div#right figure {
+    height: 100%;
+    font-size: 0;
+  }
+
+  div#skinCare div#right figure figcaption {
+    height: 15%;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+
+  div#skinCare div#right figure img {
+    width: 100%;
+    height: calc(70% - 40px);
+    margin: 20px 0;
+  }
+
+  /*div#adBanner*/
+  div#adBanner p {
+    font-size: 1.5rem;
+  }
+
+  div#adBanner p span {
+    font-size: 3rem;
+  }
+
+  /*div#gift*/
+  div.title {
+    width: 15%;
+    height: 8vw;
+    border: 2px solid #ccc;
+    float: left;
+    padding: 2.5%;
+  }
+
+  div.title h4 {
+    padding-bottom: 7%;
+    font-size: 1.3rem;
+    margin-bottom: 0;
+  }
+
+  div.wrap80 {
+    padding: 10vw 0 5vw 0;
+  }
+
+  div#gift div.title span {
+    display: block;
+    padding-top: 7%;
+    color: #888;
+    font-size: 14px;
+  }
+
+  div#gift div#boxWrap {
+    width: 75%;
+    float: right;
+    height: 40vw;
+  }
+
+  div#gift div#boxWrap div#textWrap {
+    display: block;
+    width: calc(40% - 20px);
+    height: 100%;
+    float: left;
+    margin-right: 20px;
+  }
+
+  div#gift div#boxWrap div#textWrap div#setName {
+    height: calc(50% - 80px);
+    background-color: darkgreen;
+    padding: 30px 0;
+    margin-bottom: 20px;
+  }
+
+  div#gift div#boxWrap div#textWrap div#setName img {
+    width: 80%;
+    margin: auto;
+    display: block;
+  }
+
+  div#gift div#boxWrap div#textWrap div#setName span {
+    text-align: center;
+    display: block;
+    color: white;
+    font-size: 1.3rem;
+  }
+
+  div#gift div#boxWrap div#textWrap div#setName span + span {
+    display: none;
+  }
+
+  div#gift div#boxWrap div#textWrap div#setName + div {
+    height: 50%;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    overflow: auto;
+  }
+
+  div#gift div#boxWrap div#textWrap div#setName + div > p {
+    font-size: 1.1rem;
+    padding: 3%;
+  }
+
+  div#gift div#boxWrap div.imgWrap {
+    width: 60%;
+    float: left;
+  }
+
+  /*div#MDsPick*/
+  div#MDsPick div#products {
+    width: 67%;
+    float: right;
+    padding: 0 3%;
+  }
+
+  div#MDsPick img#leftBtn,
+  div#MDsPick img#rightBtn {
+    top: 30%;
+  }
+
+  /*article*/
+  article {
+    width: 90%;
+  }
+
+  article h3 {
+    padding-bottom: 1%;
+    font-size: 1.3rem;
+  }
+
+  article div.ulWrap {
+    border-top: 1px solid gray;
+    padding-top: 2%;
+  }
+
+  article div.ulWrap > ul {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+  }
+
+  article div.ulWrap > ul > li {
+    margin-bottom: 0;
+  }
+
+  article div.ulWrap ul > li {
+    flex: 1;
+    padding: 1%;
+  }
+
+  article div.ulWrap ul > li dl dt {
+    font-size: 1.2em;
+  }
+
+
+  /*footer*/
+  footer h2 {
+    width: 20%;
+    float: left;
+    margin-right: 2%;
+  }
+
+  footer div#rightWrap {
+    width: 70%;
+    float: left;
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,150 @@
+@media only screen and (min-width: 701px) {
+    div#hotBrand > h2 > span {
+        font-size: 8rem;
+    }
+
+    div#boxWrap {
+        position: relative;
+        width: 70%;
+        margin: auto;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        margin-top: -7vw;
+        z-index: 88;
+    }
+}
+
+@media only screen and (min-width: 801px) {
+    div#hotBrand > h2 > span {
+        font-size: 9.5rem;
+    }
+}
+
+@media only screen and (min-width: 901px) {
+    div#hotBrand > h2 > span {
+        font-size: 10.5rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    html {
+        font-size: 12px;
+    }
+
+    header nav {
+        width: 70%;
+    }
+
+    div#hotBrand > h2 > span {
+        font-size: 10rem;
+    }
+
+    div#hotBrand > h2 > span > span {
+        display: block;
+    }
+
+    div#hotBrand > h2 > span#brand > span {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (min-width: 1101px) {
+    div#hotBrand > h2 > span {
+        font-size: 11rem;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    html {
+        font-size: 13px;
+    }
+
+    /*header 시작*/
+    header h1 {
+        width: 2%;
+    }
+
+    header nav > ul ul {
+        top: 3.6rem;
+    }
+
+    /*div#hotBrand 시작*/
+    div#hotBrand > h2 > span {
+        font-size: 11rem;
+    }
+
+    div#hotBrand div#wholeWrap div figure {
+        height: 17vw;
+    }
+
+    div#hotBrand div#wholeWrap div figure .hovereffect {
+        width: 55%;
+    }
+}
+
+@media only screen and (min-width: 1301px) {
+    div#hotBrand > h2 > span {
+        font-size: 12rem;
+    }
+}
+
+@media only screen and (min-width: 1401px) {
+    html {
+        font-size: 14px;
+    }
+
+    header nav {
+        width: 60%;
+    }
+
+    div#hotBrand > h2 > span {
+        font-size: 12rem;
+    }
+}
+
+@media only screen and (min-width: 1501px) {
+
+    /*div#gnb 시작*/
+    div#gnb {
+        top: 4vw;
+    }
+
+    /*div.container 시작*/
+    div.container {
+        height: 50vw;
+    }
+
+    div#hotBrand > h2 > span {
+        font-size: 13rem;
+    }
+}
+
+@media only screen and (min-width: 1601px) {
+    html {
+        font-size: 15px;
+    }
+
+    div#hotBrand > h2 > span {
+        font-size: 13rem;
+    }
+}
+
+@media only screen and (min-width: 1701px) {
+    div#hotBrand > h2 > span {
+        font-size: 14rem;
+    }
+
+    div#hotBrand > h2 > span#brand > span {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    div#hotBrand > h2 > span {
+        font-size: 15rem;
+    }
+}

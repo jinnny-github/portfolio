@@ -1,0 +1,91 @@
+@media only screen and (min-width: 1100px) {
+    section div.wrap70 {
+        bottom: 0;
+    }
+
+    .actionBtn3 {
+        margin-top: -8rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    html {
+        font-size: 11px;
+    }
+
+    section div.wrap70 {
+        width: 70%;
+        left: 15%;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    html {
+        font-size: 12px;
+    }
+
+    section div.left {
+        width: 60%;
+    }
+
+    section div.right {
+        width: 40%;
+    }
+
+    section div.right div.textWrap div.rot {
+        margin-left: 34%;
+    }
+
+    section div.right div.textWrap > span {
+        margin-left: 40%;
+    }
+
+    section div.right div.textWrap p {
+        margin-left: 40%;
+    }
+
+    section.even div.left {
+        width: 65%;
+    }
+
+    section.even div.right {
+        width: 35%;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    html {
+        font-size: 14px;
+    }
+
+    .actionBtn3 {
+        width: 12rem;
+        height: 70px;
+        margin-top: -7rem;
+    }
+
+    .actionBtn3 .front,
+    .actionBtn3 .back {
+        width: 12rem;
+        height: 70px;
+        line-height: 70px;
+    }
+
+    .actionBtn3 .front {
+        transform: translateZ(35px);
+        -webkit-transform: translateZ(35px);
+        -moz-transform: translateZ(35px);
+    }
+
+    .actionBtn3 .back {
+        transform: rotateX(-90deg) translateZ(35px);
+        -webkit-transform: rotateX(-90deg) translateZ(35px);
+        -moz-transform: rotateX(-90deg) translateZ(35px);
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+    html {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,268 @@
+@media only screen and (min-width: 600px) {
+
+  div#quick {
+    display: block;
+  }
+  
+  header {
+    padding: 0;
+  }
+  
+  header nav {
+    display: block;
+    width: 100%;
+  }
+
+  header nav > ul {
+    text-align: center;
+  }
+
+  header nav > ul > li {
+    display: inline-block;
+    width: 16%;
+    position: relative;
+  }
+
+  header nav > ul > li:hover > a {
+    color: rgb(146, 16, 20);
+  }
+
+  header nav > ul > li > a {
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: block;
+    line-height: 83px;
+    letter-spacing: 2px;
+  }
+
+  header nav > ul ul {
+    background-color: rgba(146, 16, 20, 0.7);
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 83px;
+  }
+
+  header nav > ul > li li {
+    transition: all 0.3s;
+    margin-bottom: 1rem;
+  }
+  
+  header nav > ul > li li a {
+    line-height: 2rem;
+    display: block;
+  }
+
+  header nav > ul > li li:hover a {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
+  header div#m_nav {
+    display: none;
+  }
+  
+  /*article*/
+  article div.wrap {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+  }
+
+  article div.wrap figure {
+    flex: 1;
+  }
+
+  article div.wrap figure:nth-child(2) {
+    margin: 0 10px;
+  }
+  
+  article div.wrap figure:last-child {
+    display: none;
+  }
+
+  article div.wrap figure figcaption {
+    top: 10vw;
+  }
+  
+  
+  /*div#news*/
+  div#news div.fl,
+  div#news div.fr {
+    width: 45%;
+    margin: 10px 0;
+  }
+
+  div#news div.fl > ul > li {
+    width: 25%;
+    height: 2.5vw;
+    line-height: 2.5vw;
+  }
+
+  div#news div.fl > ul > li:hover {
+    margin-top: -0.8vw;
+    height: 3.3vw;
+  }
+
+  div#news div.fr div#gallery ul li img {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  div#news div.fr div#btnWrap {
+    height: 2vw;
+  }
+  
+  /*div#thorWrap*/
+  div#light {
+    height: 70vw;
+    top: -10vw;
+  }
+  
+  /*div#captain*/
+  div#captain {
+    display: block;
+  }
+
+  div#captain div.fl {
+    width: 60%;
+  }
+
+  div#captain div.fl span {
+    font-size: 1.5rem;
+  }
+
+  div#captain div.fl h3 {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 1rem;
+  }
+
+  div#captain div.fl p {
+    margin: 2rem 0;
+    line-height: 2.5rem;
+    font-size: 1.4rem;
+    animation: show 4s steps(60, end);
+  }
+
+  div#captain div.fr {
+    width: 40%;
+    height: 30vw;
+    overflow: hidden;
+  }
+
+  div#captain div.fr div#blackBox {
+    width: 30%;
+    height: 100%;
+    background-color: #111;
+    position: relative;
+    z-index: 100;
+  }
+
+  div#captain div.fr div#redBox {
+    width: 50%;
+    height: 100%;
+    background-color: #921014;
+    margin-right: 20%;
+  }
+
+  div#captain div.fr div.imgWrap {
+    width: 80%;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 1s;
+  }
+
+  div#captain:hover {
+    overflow: visible !important;
+  }
+
+  div#captain:hover div.fr div.imgWrap {
+    right: 0;
+  }
+
+  div#captain div.fr div.imgWrap img {
+    width: 100%;
+  }
+
+  /*div#character*/
+  div#character h3 {
+    margin-bottom: 0;
+  }
+
+  div#character > div.fl {
+    width: 55%;
+  }
+
+  div#character > div.fl p {
+    display: block;
+    margin: 3rem 0 5rem;
+    line-height: 2rem;
+    font-size: 1.4rem;
+  }
+
+  div#character > div.fr {
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 0;
+  }
+
+  div#character > div.fr div.imgWrap:first-child {
+    width: 80%;
+    margin: 0rem 0 3rem;
+    animation: rot 2s infinite;
+  }
+
+  @keyframes rot {
+    0% {
+      transform: rotate(-5deg);
+    }
+
+    50% {
+      transform: rotate(5deg);
+    }
+
+    100% {
+      transform: rotate(-5deg);
+    }
+  }
+
+  /*div#popup*/
+  div#popup ul li img:first-child {
+    display: block;
+  }
+
+  div#popup ul li img:last-child {
+    display: none;
+  }
+
+  /*footer*/
+  footer div.fl {
+    width: 70%;
+    float: left;
+    border-bottom: 0;
+    padding: 2vw 0;
+  }
+
+  footer div.fl ul + p {
+    display: block;
+    margin-top: 1vw;
+    line-height: 20px;
+  }
+
+
+  footer div.fl p#m_p {
+    display: none;
+  }
+
+  footer div.fr {
+    width: 15%;
+    margin: 2vw 0;
+    float: right;
+    padding-bottom: 5vw;
+  }
+  
+}

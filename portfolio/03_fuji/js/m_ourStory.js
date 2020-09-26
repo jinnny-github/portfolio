@@ -1,6 +1,6 @@
 $(function(){
      var winW = $(window).width();
-    if(winW<=479){
+    if(winW<=600){
    
     var li_num = $("div#m_ourStory ul li").length;
     

@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mongolia7days</title>
+    
+    <link rel="shortcut icon" href="img/favicon.ico">
     <link rel="stylesheet" href="css/jquery-ui.css">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css">
@@ -15,25 +17,15 @@
 
     <script src="js/jquery.js"></script>
     <script src="js/jquery-ui.js"></script>
-    <script>
-        $(function() {
-      $("#dDate , #aDate").datepicker({
-        dateFormat: 'yy-mm-dd',
-        inline: true,
-        showMonthAfterYear: true
-      });
-      $('#dDate').datepicker('setDate', 'today');
-      $('#aDate').datepicker('setDate', '+7D');
-    })
-
-  </script>
+    <script src="js/datepicker.js"></script>
+    <script src="js/scroll.js"></script>
 </head>
 
 <body>
     <header>
         <nav id="navWrap">
             <div id="flipNav">
-                <h1 class="flipNav01 front"></h1>
+                <h1 class="flipNav01 front">logo</h1>
                 <ul class="flipNav02 back">
                     <li>
                         <a href="index.html">
@@ -51,6 +43,7 @@
 
     <!--section 시작-->
     <section class="rel">
+       <h2>banner images</h2>
         <ul>
             <li><img src="img/banner01.jpg" alt="banner01"></li>
             <!--<li><img src="img/banner02.jpg" alt="banner02"></li>
@@ -208,12 +201,16 @@
 
     <article class="wrap70">
         <div class="left">
-
-
+            <h3>Directions</h3>
+            <table>
+                <tr>
+                    <td style="border:1px solid #cecece;"><a href="https://map.naver.com/?searchCoord=1874e381ad4e807bd5c63db1054397a3c5263293c79d9246019ac1349541e126&query=66q96rOo66as7JWE7IS467iQ642w7J207KaI&tab=1&lng=ab10b8aae9296e74c29de0c83eb51ea2&mapMode=0&mpx=a37e70fb6d34b8d50beafff2407c2a8d7c44e20ab2502c61b6bfbc343cc3ec79aa5b1343aca918dd5f03e23c312dd0a8f21275b4159da42f9b90706a97e21e66&lat=8ab96e57afdc7f916f50b493349aaab3&dlevel=12&enc=b64&menu=location" target="_blank"><img src="http://prt.map.naver.com/mashupmap/print?key=p1542596418114_1163434652" alt="지도 크게 보기" title="지도 크게 보기"/></a></td>
+                </tr>
+            </table>
         </div>
         <div id="booking" class="right">
             <h3>Online Booking</h3>
-            <form action="">
+            <form action="booking.jsp">
                 <label for="name">Name</label>
                 <input type="text" id="name">
                 <label for="mobile">Mobile</label>
@@ -246,7 +243,8 @@
 
     <!--footer 시작-->
     <footer>
-        <div id="ulWrap" class="ovh">
+        <span class="hr"></span>
+        <div id="ulWrap" class="ovh wrap70">
             <ul>
                 <li><a href="#none">이용약관</a></li>
                 <li><a href="#none">여행약관</a></li>
@@ -254,17 +252,18 @@
                 <li><a href="#none">오시는길</a></li>
             </ul>
         </div>
-        <div class="wrap70 ovh">
+        <span class="hr"></span>
+        <div class="wrap70 ovh right">
             <div class="fl">
                 <h2>logo</h2>
             </div>
             <div class="fr">
                 <div id="sns">
                     <ul>
-                        <li><a href="#none">F</a></li>
-                        <li><a href="#none">I</a></li>
-                        <li><a href="#none">T</a></li>
-                        <li><a href="#none">K</a></li>
+                        <li><a href="#none"><img src="img/facebook.png" alt="facebook"></a></li>
+                        <li><a href="#none"><img src="img/instagram.png" alt="instagram"></a></li>
+                        <li><a href="#none"><img src="img/twitter.png" alt="twitter"></a></li>
+                        <li><a href="#none"><img src="img/youtube.png" alt="youtube"></a></li>
                     </ul>
                 </div>
                 <span>Lorem ipsum dolor sit amet, </span>

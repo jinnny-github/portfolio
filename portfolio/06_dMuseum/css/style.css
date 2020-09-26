@@ -1,0 +1,474 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+html {
+    font-size: 10px;
+}
+
+/*header*/
+
+header {
+    position: fixed;
+    height: 5rem;
+    z-index: 9999;
+    width: 100%;
+}
+
+header h1 {
+    width: 10%;
+    float: left;
+    margin-top: 1.5rem;
+}
+
+header h1 img {
+    width: 100%;
+}
+
+/*div#menu*/
+
+div#menu {
+    position: relative;
+    width: calc(45% - 2rem);
+    cursor: pointer;
+    float: left;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    z-index: 8888;
+}
+
+div#menu span {
+    display: block;
+    width: 40px;
+    height: 3px;
+    background-color: black;
+    margin-bottom: 10px;
+    transition: all 0.5s;
+}
+
+div#menu span:nth-child(3) {
+    float: left;
+    width: 25px;
+    margin-bottom: 0;
+    margin-right: 5px;
+}
+
+div#menu span#star {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: transparent;
+    margin-top: -10px;
+    float: left;
+    color: #ffbc00;
+}
+
+div#menu.on span:first-child {
+    transform: rotate(45deg);
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+div#menu.on span:nth-child(2) {
+    transform: rotate(-45deg) translate(10px, -9.5px);
+    background-color: #fff;
+}
+
+div#menu.on span:nth-child(3),
+div#menu.on span#star {
+    display: none;
+}
+
+/*nav*/
+
+nav {
+    width: 100%;
+    height: 100%;
+    /*background-image: url(../img/bgImg.png);*/
+    background-color: #111;
+    position: fixed;
+    right: -100%;
+    top: 0;
+    z-index: 7777;
+    transition: right 0.5s;
+    font-family: 'Russo One', sans-serif;
+}
+
+nav.on {
+    right: 0;
+}
+
+nav ul {
+    margin: 12rem auto;
+    width: 70%;
+}
+
+nav ul li {
+    margin: 5rem 0;
+    text-align: center;
+    height: 7.2rem;
+    overflow: hidden;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 10rem;
+    line-height: 7.5rem;
+    display: block;
+    letter-spacing: 5px;
+}
+
+nav ul li a:last-child {
+    color: #ffbc00;
+}
+
+nav ul li div {
+    transition: all .5s;
+}
+
+nav ul li:hover div {
+    margin-top: -7.3rem;
+}
+
+/*section*/
+
+section {
+    width: 100%;
+    position: relative;
+    background-image: url(../img/bgImg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+section div.wrap70 {
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    width: 80%;
+    overflow: hidden;
+}
+
+section div.left {
+    width: 65%;
+    float: left;
+    margin-top: 5%;
+}
+
+section div.left > span {
+    display: inline-block;
+    font-size: 13rem;
+    line-height: 1;
+    font-weight: 1000;
+    font-family: 'Anton', sans-serif;
+    color: #111;
+    text-shadow: 0 0 10px #fff;
+}
+
+section div.left span.first {
+    margin-left: 5rem;
+}
+
+section div.left span.second {
+    position: relative;
+    z-index: 999;
+}
+
+section div.left div.imgWrap {
+    width: 45%;
+    position: absolute;
+    left: 29%;
+    top: 15.5rem;
+    z-index: 888;
+    cursor: pointer;
+}
+
+section div.left div.imgWrap > img {
+    width: 100%;
+    transition: all .5s;
+    position: relative;
+}
+
+section div.left div.imgWrap:hover img {
+    transform: scale(1.1);
+}
+
+section div.left div.imgWrap a img {
+    width: 13%;
+    margin-left: 1rem;
+}
+
+.actionBtn3 {
+    width: 10rem;
+    height: 40px;
+    margin-top: -6rem;
+    display: block;
+    margin-left: -20%;
+    text-align: center;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    letter-spacing: 0.2rem;
+}
+
+.actionBtn3 .front,
+.actionBtn3 .back {
+    width: 10rem;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    transition: all .5s;
+    -webkit-transition: -webkit-transform .5s;
+    -moz-transition: -moz-transform .5s;
+    color: #4c4c4d;
+}
+
+.actionBtn3 .front {
+    background-color: #fff;
+    transform: translateZ(20px);
+    -webkit-transform: translateZ(20px);
+    -moz-transform: translateZ(20px);
+}
+
+.actionBtn3 .back {
+    background-color: #ff542c;
+    color: #fff;
+    transform: rotateX(-90deg) translateZ(20px);
+    -webkit-transform: rotateX(-90deg) translateZ(20px);
+    -moz-transform: rotateX(-90deg) translateZ(20px);
+}
+
+section div.left div.imgWrap:hover .actionBtn3 {
+    transform: rotateX(90deg);
+    -webkit-transform: rotateX(90deg);
+    -moz-transform: rotateX(90deg);
+}
+
+section div.right {
+    float: right;
+    width: 35%;
+    position: relative;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+section div.right div.imgWrap {
+    width: 50%;
+}
+
+section div.right img {
+    width: 100%;
+    bottom: 0;
+}
+
+section div.right div.textWrap {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+section div.right div.textWrap span {
+    display: block;
+}
+
+section div.right div.textWrap div.rot {
+    transform: rotate(-90deg);
+    width: 20%;
+    margin-top: 4rem;
+    margin-left: 28%;
+    text-align: right;
+}
+
+section div.right div.textWrap div.rot span.num {
+    font-weight: 600;
+}
+
+section div.right div.textWrap > span {
+    font-weight: 600;
+    margin: 2rem 0 3rem 35%;
+    font-size: 1.3rem;
+}
+
+section div.right div.textWrap p {
+    margin-left: 35%;
+    line-height: 1.7rem;
+}
+
+section:nth-child(3) div.right div.imgWrap {
+    width: 90%;
+}
+
+section.even div.left {
+    width: 70%;
+    float: right;
+}
+
+section.even div.left span.first {
+    margin-left: 10rem;
+}
+
+section.even div.left span.second {
+    margin-left: 20rem;
+}
+
+section.even div.left div.imgWrap {
+    left: inherit;
+    right: 30%;
+    top: 15rem;
+}
+
+section.even div.right {
+    float: left;
+    width: 30%;
+}
+
+section.even div.right div.imgWrap {
+    width: 100%;
+}
+
+section.even .actionBtn3 {
+    margin-top: -6rem;
+    margin-left: 90%;
+}
+
+section.even div.right div.textWrap div.rot,
+section.even div.right div.textWrap > span {
+    margin-left: 5%;
+}
+
+section.even div.right div.textWrap p {
+    margin-left: 0;
+    width: 70%;
+}
+
+section:nth-child(2) .actionBtn3 .back {
+    background-color: #3b82f4;
+}
+
+section:nth-child(3) .actionBtn3 .back {
+    background-color: #ffbc00;
+}
+
+section:nth-child(4) .actionBtn3 .back {
+    background-color: #a673cd;
+}
+
+
+/*div.subPage*/
+
+div.subPage {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/banner01.jpg);
+    background-size: cover;
+    position: fixed;
+    left: -100%;
+    top: 0;
+    z-index: 7777;
+    transition: left 0.8s;
+    font-family: 'Russo One', sans-serif;
+}
+
+section:nth-child(2) div.subPage {
+    top: 100%;
+    background-image: url(../img/banner02.jpg);
+}
+
+section:nth-child(2) div.subPage div#white button {
+    background-color: #3b82f4;
+}
+
+section:nth-child(3) div.subPage {
+    top: 200%;
+    background-image: url(../img/banner03.jpg);
+}
+
+section:nth-child(3) div.subPage div#white button {
+    background-color: #ffbc00;
+}
+
+section:nth-child(4) div.subPage {
+    top: 300%;
+    background-image: url(../img/banner04.jpg);
+}
+
+section:nth-child(4) div.subPage div#white button {
+    background-color: #a673cd;
+}
+
+div.subPage.on {
+    left: 0;
+}
+
+div.subPage div#white {
+    width: 60%;
+    height: 60%;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 5% auto;
+    padding: 5% 10%;
+    position: relative;
+}
+
+div.subPage div#white figure img {
+    float: left;
+    margin-right: 5%;
+    width: 40%;
+}
+
+div.subPage div#white h3 {
+    margin-bottom: 3%;
+    font-size: 1.5rem;
+}
+
+div.subPage div#white p,
+div.subPage div#white dl dd {
+    line-height: 1.9rem;
+}
+
+div.subPage div#white p span {
+    font-size: 1.3rem;
+    display: block;
+    margin-bottom: 2%;
+}
+
+div.subPage div#white dl {
+    margin-bottom: 3%;
+}
+
+div.subPage div#white dl dt {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+div.subPage div#white button {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    right: 1%;
+    bottom: 5%;
+    transform: translateX(-50px);
+    background-color: #ff542c;
+    border: 0;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+div.subPage div#white button:focus {
+    outline: none;
+}

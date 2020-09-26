@@ -55,7 +55,7 @@ body {
     height: 150px;
     margin: auto;
     position: relative;
-    top: 12vw;
+    top: 20vw;
     width: 150px;
 }
 
@@ -96,7 +96,7 @@ body {
 
 .ground {
     opacity: 1;
-    margin-top: 10vw;
+    margin: 30vw auto 5vw;
     position: sticky;
 }
 
@@ -110,7 +110,7 @@ body {
 }
 
 .go{
-    width: 10%;
+    width: 20%;
     border: 1px solid white;
     margin: auto;
     border-radius: 50px;
@@ -135,5 +135,29 @@ body {
     }
     100%{
         background-color: transparent;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .moon{
+        top: 17vw;
+    }
+    
+    .ground{
+        margin: 20vw auto 3vw;
+    }
+    
+    .go{
+        width: 10%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .moon{
+        top: 12vw;
+    }
+    
+    .ground{
+        margin: 10vw auto 1vw;
     }
 }

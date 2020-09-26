@@ -1,21 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>FUJI FILM Login</title>
     <link rel="stylesheet" href="css/loginStyle.css" type="text/css">
+
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script>
+        $(function(){
+            var winH = $(window).height();
+            $("body > div").height(winH);
+        })
+    </script>
 </head>
+
 <body>
     <div>
-        <form action="">
-            <label for="id">Username</label>
-            <input type="text" id="id" placeholder="Username">
-            <label for="pw">Password</label>
-            <input type="password" id="pw" placeholder="password">
-            <input type="submit" value="Login" id="submit">
-            <a href="#none">Forgot Username / Password?</a>
-        </form>
+        <div id="wrap">
+            <form action="">
+                <label for="id">Username</label>
+                <input type="text" id="id" placeholder="Username">
+                <label for="pw">Password</label>
+                <input type="password" id="pw" placeholder="password">
+                <input type="submit" value="Login" id="submit">
+                <a href="#none">Forgot Username / Password?</a>
+            </form>
+        </div>
+
     </div>
-    
+
 </body>
+
 </html>

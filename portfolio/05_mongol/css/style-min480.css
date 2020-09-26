@@ -59,11 +59,6 @@
         margin: 5vw auto;
     }
 
-    /*div#booking 시작*/
-    div#booking {
-        margin-top: 3vw;
-    }
-
     /*div#tours 시작*/
     div#tours {
         padding: 20vw 0 25vw;
@@ -86,13 +81,13 @@
         padding: 2vw 0;
     }
 
-    footer div.wrap70 {
+    footer div.right {
         margin: 3vw auto 5vw;
     }
 
-    footer div.fr {
-        width: 43%;
-    }
+    footer div.wrap70 div.fr{
+    width: 30%;
+}
 
     footer div.fr span {
         margin-top: 2vw;

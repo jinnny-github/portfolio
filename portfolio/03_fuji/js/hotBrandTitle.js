@@ -5,10 +5,10 @@ $(function () {
         var scT = $(window).scrollTop();
         if (hT <= scT) {
             $("#hotBrand h2 span#hot").animate({
-                marginLeft: '5%'
+                marginLeft: '9%'
             }, 1200);
             $("#hotBrand h2 span#brand").animate({
-                right: 0
+                right: "-9%"
             }, 1200);
         }
     })

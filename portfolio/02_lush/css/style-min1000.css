@@ -1,0 +1,147 @@
+@media only screen and (min-width: 1000px) {
+  html {
+    font-size: 16px;
+  }
+
+  /*header*/
+  header h1 {
+    width: 20%;
+    float: left;
+  }
+
+  header div#navWrap {
+    width: 75%;
+    float: right;
+  }
+
+  header div#navWrap div#gnb {
+    display: block;
+    overflow: hidden;
+  }
+
+  header div#navWrap div#gnb ul {
+    float: right;
+  }
+
+  header div#navWrap div#gnb ul li {
+    float: left;
+  }
+
+  header div#navWrap div#gnb ul li a {
+    display: block;
+    padding: 0 20px;
+    color: white;
+    font-size: 0.9rem;
+  }
+
+  header div#navWrap div#gnb ul li:last-child a {
+    padding-right: 5px;
+  }
+
+  header div#navWrap div#gnb ul li a img {
+    width: 20px;
+  }
+
+  header div#navWrap nav {
+    float: right;
+  }
+
+  /*section*/
+  section div#text {
+    display: block;
+  }
+
+  section div#text {
+    width: 45%;
+    height: 45vw;
+    border: 2px solid white;
+    position: absolute;
+    left: 27%;
+    top: 10vw;
+  }
+
+  section div#text h2 span {
+    display: block;
+    text-align: center;
+    font-size: 4rem;
+    margin: 16% auto;
+    color: white;
+  }
+
+  /*div#wrap*/
+  div#wrap {
+    width: 80%;
+    margin: 5vw auto;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+  }
+
+  div#wrap > div {
+    flex: 1;
+    margin: 0;
+  }
+
+  div#wrap div#campaign {
+    flex-grow: 1.3;
+  }
+
+  div#wrap div#campaign div.imgWrap,
+  div#wrap div#campaign dl {
+    width: 48%;
+    height: 50%;
+  }
+
+  div#wrap div#campaign div.imgWrap {
+    display: block;
+    margin: 1%;
+    padding: 1%;
+    box-sizing: border-box;
+    float: left;
+  }
+
+  div#wrap div#campaign div.imgWrap img {
+    width: 100%;
+  }
+
+  div#wrap div#scout {
+    height: 20vw;
+  }
+
+  div#wrap div#scout div:last-child {
+    width: 50%;
+    height: 15vw;
+  }
+
+  /*div#skinCare*/
+  div#skinCare h5 {
+    width: 15%;
+  }
+
+  /*div#adBanner*/
+  div#adBanner p {
+    font-size: 2.5rem;
+  }
+
+  div#adBanner p span {
+    font-size: 4.5rem;
+  }
+  
+  /*div#gift*/
+  div#gift div#boxWrap div#textWrap div#setName span + span {
+    display: block;
+    font-size: 1em;
+    padding-top: 10%;
+  }
+  
+  /*footer*/
+  footer h2 {
+    width: 10%;
+  }
+
+  footer div#rightWrap {
+    width: 70%;
+  }
+}

@@ -1,207 +1,53 @@
 @media only screen and (min-width: 480px) {
-    html {
-        font-size: 12px;
-    }
+  html {
+    font-size: 12px;
+  }
 
-    div#quick {
-        display: block;
-    }
+  /*header*/
+  header {
+    padding: 0 10%;
+  }
 
-    /*header 시작*/
+  header h1 {
+    width: 20%;
+    margin: 3rem auto 0;
+  }
 
-    header {
-        width: 80% !important;
-    }
+  /*section*/
+  section {
+    height: 52vw;
+  }
+  
+  /*div#thorWrap*/
+  div#thorWrap {
+    margin: 10vw 0;
+  }
 
-    header nav {
-        display: block;
-    }
+  div#thorWrap div#thor div h3 > span:first-child {
+    margin-right: 20%;
+  }
 
-    header h1 {
-        float: left;
-        width: 10%;
-        margin: 11px 0 0;
-    }
+  div#thorWrap div#thor div img {
+    width: 20rem;
+    height: 23rem;
+    top: 50%;
+  }
 
-    header nav {
-        float: left;
-        width: 84%;
-    }
+  div#thor p,
+  div#thor > span {
+    width: 100%;
+  }
 
-    header nav > ul {
-        text-align: center;
-        margin-left: 8%;
-    }
+  div#thorWrap div#thor p {
+    display: block;
+  }
 
-    header nav > ul > li {
-        display: inline-block;
-        width: 16%;
-        position: relative;
-    }
+  div#thorWrap div#thor span#name {
+    margin-top: 0;
+  }
 
-    header nav > ul > li:hover > a {
-        color: rgb(146, 16, 20);
-    }
-
-    header nav > ul > li > a {
-        font-size: 1.2rem;
-        font-weight: 600;
-        display: block;
-        line-height: 83px;
-        letter-spacing: 2px;
-    }
-
-    header nav > ul ul {
-        background-color: rgba(146, 16, 20, 0.7);
-        position: absolute;
-        width: 100%;
-        left: 0;
-        top: 83px;
-    }
-
-    header nav > ul > li li a {
-        line-height: 50px;
-        display: block;
-    }
-
-    header nav > ul > li li {
-        transition: all 0.3s;
-    }
-
-    header nav > ul > li li:hover a {
-        font-size: 1.1rem;
-        font-weight: 600;
-    }
-
-    header div#m_nav {
-        display: none;
-    }
-
-    /*section 시작*/
-    section {
-        height: 52vw;
-    }
-
-    /*article 시작*/
-    article div.wrap {
-        display: -webkit-flex;
-        display: -moz-flex;
-        display: -ms-flex;
-        display: -o-flex;
-        display: flex;
-    }
-
-    article div.wrap figure {
-        flex: 1;
-    }
-
-    article div.wrap figure:nth-child(2) {
-        margin: 0 10px;
-    }
-
-    article div.wrap figure figcaption {
-        top: 10vw;
-    }
-
-    /*div#news 시작*/
-    div#news div.fl,
-    div#news div.fr {
-        width: 45%;
-        margin: 10px 0;
-    }
-
-    div#news div.fl > ul > li {
-        width: 25%;
-        height: 2.5vw;
-        line-height: 2.5vw;
-    }
-
-    div#news div.fl > ul > li:hover {
-        margin-top: -0.8vw;
-        height: 3.3vw;
-    }
-
-    div#news div.fr div#gallery ul li img {
-        width: 100%;
-        margin-left: 0;
-    }
-
-    div#news div.fr div#btnWrap {
-        height: 2vw;
-    }
-
-    /*div#thorWrap 시작*/
-    div#thorWrap div#thor {
-        height: 50vw;
-    }
-
-    div#thorWrap div#thor div h3 > span:first-child {
-        margin-right: 20%;
-    }
-
-    div#thor div img {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        width: 25rem;
-        height: 30rem;
-        transform: translate(-12.5rem, -15rem);
-    }
-
-    div#thorWrap div#thor p {
-        display: block;
-    }
-
-    div#thorWrap div#thor span#name {
-        margin-top: 0;
-    }
-
-    div#thor span#roundBox {
-        width: 20%;
-    }
-
-
-    /*div#character 시작*/
-    div#character h3 {
-        margin-bottom: 0;
-    }
-
-    div#character > div.fl {
-        width: 55%;
-    }
-
-    div#character > div.fl p {
-        display: block;
-        margin: 3rem 0 5rem;
-        line-height: 2rem;
-        font-size: 1.4rem;
-    }
-
-    div#character > div.fr {
-        width: 40%;
-        margin-left: 5%;
-        margin-top: 0;
-    }
-
-    div#character > div.fr div.imgWrap:first-child {
-        width: 80%;
-        margin: 0rem 0 3rem;
-        animation: rot 2s infinite;
-    }
-
-    @keyframes rot {
-        0% {
-            transform: rotate(-5deg);
-        }
-
-        50% {
-            transform: rotate(5deg);
-        }
-
-        100% {
-            transform: rotate(-5deg);
-        }
-    }
-
+  div#thorWrap div#thor span#roundBox {
+    width: 20%;
+  } 
 
 }
