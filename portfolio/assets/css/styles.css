@@ -1265,26 +1265,57 @@ section#getApp .platforms .media:hover a div.media-body {
 
 /* support section */
 
+section#support{
+  background: url("../img/bk-freeze-ga.jpg") no-repeat;
+  background-size: cover;
+}
+
+section#support .section-heading h1{
+  color: #fff;
+}
+
 section#support header h1:after {
-  background: #884D80;
+  background: #fff;
+}
+
+section#support .section-heading .divider:after{
+  background: #fff;
+}
+
+section#support .section-heading p{
+  color: #fff;
 }
 
 section#support .media i.fa {
-  border: 2px solid #884D80;
-  color: #884D80;
+  border: 2px solid #fff;
+  color: #fff;
 }
 
 section#support .media a {
-  color: #884D80;
+  color: #fff;
+}
+
+section#support .media .media-heading{
+  color: #fff;
 }
 
 section#support .media:hover i.fa {
-  color: #ffffff;
-  background: #884D80;
+  color: #884D80;
+  background: #ffffff;
 }
 
 section#support .media:hover h3 {
+  color: #ffffff;
+}
+
+section#support .btn.btn-primary {
+  color: #fff;
+  border-color: #fff;
+}
+
+section#support .btn.btn-primary:hover {
   color: #884D80;
+  background-color: #fff;
 }
 
 /* footer section */
